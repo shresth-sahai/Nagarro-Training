@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="All About Pokeman you need to know!" />
+    <meta name="keywords" content="pokeman, garry, ash, Pikachu, bubasaur" />
+    <meta name="author" content="Shivam Tiwari" />
+    <title>Pokemon Web : Assignment 1 By Shivam Tiwari</title>
+  </head>
+  <body>
+    <header style="text-align: center">
+      <h1 style="color: #1abca1">Pokemon</h1>
+      <hr size="4px" color="#1abca1" width="50%" />
+    </header>
+    <section>
+      <div>
+        <img width="300px" title="Pokemon logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png""
+        alt="Pokemon logo" />
+        <p>
+          Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese
+          media franchise managed by The Pokémon Company, a company founded by
+          Nintendo, Game Freak, and Creatures. The franchise was created by
+          Satoshi Tajiri in 1996,[4] and is centered on fictional creatures
+          called "Pokémon". In Pokémon, humans, known as Pokémon Trainers, catch
+          and train Pokémon to battle other Pokémon for sport
+        </p>
+        <a
+          href="https://en.wikipedia.org/wiki/Pok%C3%A9mon"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Know more about Pokemon -->
+        </a>
+      </div>
+      <div>
+        <h1>Ash Ketchum</h1>
+        <img
+          height="300px"
+          src="https://i.pinimg.com/originals/28/ec/d6/28ecd67d058708db6a65de3e88f2c9f6.png"
+        />
+        <p>
+          Ash Ketchum, known as Satoshi (サトシ) in Japan, is a fictional
+          character in the Pokémon franchise owned by Nintendo. He is the
+          protagonist of the Pokémon anime and certain manga series as well as
+          on various merchandise related to the franchise. Ash Ketchum was first
+          mentioned in a video game at the dialogue of Pokémon Play It!, and his
+          first appearance in a game was in Pokémon Puzzle League. Satoshi
+          Tajiri, the creator of Pokémon, with whom Ash shares his Japanese
+          name, has stated that Ash represents the 'human aspect' of the series,
+          and that Ash reflects what he himself was like as a kid.[3]
+        </p>
+        <a
+          href="https://en.wikipedia.org/wiki/Ash_Ketchum"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Know more about Ash Ketchum -->
+        </a>
+      </div>
+      <div>
+        <h1>Garry Oak</h1>
+        <img
+          src="https://archives.bulbagarden.net/media/upload/thumb/4/42/Gary_Oak_OS.png/220px-Gary_Oak_OS.png"
+        />
+        <p>
+          Gary Oak is a character appearing in Pokémon the Series. He is the
+          grandson of Professor Oak and the rival of Ash Ketchum in the first
+          few seasons. His Starter Pokémon was a Squirtle, later evolving into a
+          Blastoise. Gary appeared in a cameo in Mewtwo Strikes Back—Evolution,
+          a remake of Mewtwo Strikes Back. Like in the original movie, he was
+          seen losing his Gym battle against Giovanni from The Battle of the
+          Badge.
+        </p>
+        <a
+          href="https://bulbapedia.bulbagarden.net/wiki/Gary_Oak"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Know more about Gary Oak -->
+        </a>
+      </div>
+      <br />
+      <hr size="4px" color="#1abca1" width="80%" />
+      <div style="text-align: center">
+        <h1>Pokemon Wiki</h1>
+        <iframe
+          height="500"
+          width="500"
+          src="https://en.wikipedia.org/wiki/Pok%C3%A9mon"
+          frameborder="500"
+        >
+          ABOUT POKEMON</iframe
+        >
+      </div>
+      <hr size="4px" color="#1abca1" width="80%" />
+
+      <div>
+        <h1 style="text-align: center">Register to get Regular Updates</h1>
+        <form action="/action.php">
+          <label for="fname">First name:</label><br />
+          <input type="text" name="fname" value="first name" /><br /><br />
+          <label for="lname">Last name:</label><br />
+          <input type="text" name="lname" value="last name" /><br />
+          <br />
+          <label for="mail">Email:</label><br />
+          <input type="email" name="mail" value="yourmail@gmail.com" /><br />
+          <br />
+          <label for="pass">Last name:</label><br />
+          <input type="password" name="pass" value="password" /><br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <br />
+      <hr size="4px" color="#1abca1" width="80%" />
+      <br />
+      <div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Vqamcl6pNGU"
+          title="Pokemon Trailer"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <footer style="text-align: center">
+      <h4>&copy; Shivam Tiwari (shivatiwari1648@gmail.com)</h4>
+    </footer>
+  </body>
+</html>
