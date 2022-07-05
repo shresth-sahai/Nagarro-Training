@@ -16,8 +16,11 @@
 </head>
 
 <body>
-    <h1>INTRODUCTION</h1>
+    <caption>
+        <h1 align="center">POKEMON</h1>
+    </caption>
 
+    <h3>INTRODUCTION</h3>
     <p>
         Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon
         Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri
@@ -270,6 +273,40 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+        <form action="./index.php">
+            <caption>
+                <h3>Give Your Feedback Here</h3>
+            </caption>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+
+            <br>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="AnySuggestions">Any Suggestions?</label>
+                <br>
+                <textarea name="feedback" id="1000" cols="30" rows="10"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
 </body>
 
