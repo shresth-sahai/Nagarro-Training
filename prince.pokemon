@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO WEB</title>
+</head>
+<body>
+ 
+<h1 style="text-align:center ;">POKEMON</h1>
+ 
+<p>
+    Pokémon[a][1][2][3] (an abbreviation for Pocket Monsters[b] in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996,[4] and is centered on fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon Trainers, catch and train Pokémon to battle other Pokémon for sport. All media works within the franchise are set in the Pokémon universe. The English slogan for the franchise is "Gotta Catch ‘Em All!".[5][6] There are currently 913 Pokémon species.[7]
+
+The franchise began as Pocket Monsters: Red and Green (later released outside of Japan as Pokémon Red and Blue), a pair of video games for the original Game Boy handheld system that were developed by Game Freak and published by Nintendo in February 1996. It soon became a media mix franchise adapted into various different media.[8] Pokémon is estimated to be the highest-grossing media franchise of all time.
+   
+</p>
+<img src="https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg" alt="Girl in a jacket" width="800" height="500">
+ 
+<h2> Ash Ketchum</h2>
+<p>
+    Ash Ketchum, known as Satoshi in Japan, is a fictional character in the
+      Pokémon franchise owned by Nintendo. He is the protagonist of the Pokémon
+      anime and certain manga series as well as on various merchandise related
+      to the franchise. In Japanese, the character is voiced by Rika Matsumoto,
+    Ash Ketchum, known as Satoshi in Japan, is a fictional character in the
+      Pokémon franchise owned by Nintendo. He is the protagonist of the Pokémon
+      anime and certain manga series as well as on various merchandise related
+      to the franchise. In Japanese, the character is voiced by Rika Matsumoto,
+      <br>
+ <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/04/pokemon-ash-and-pikachu-1.jpg"  width="700" height="400"alt="">
+      
+</p>
+ 
+ 
+<br>
+
+    <a href="https://www.pokemon.com/us/">Hi This is POKEMON website </a>
+
+</div>
+<br>
+<br>
+<strong>VIDEOS</strong>
+
+<br>
+<br>
+
+  
+
+ 
+<iframe 
+width="500"
+height="600"
+ 
+src="https://user-images.githubusercontent.com/56331870/177250989-e649eb33-b4af-4fb8-8c37-cca6087284a9.mp4"
+ 
+title="pokemon VIDEOS"
+allowfullscreen
+ 
+frameborder="0"></iframe>
+<br>
+<h4>Register to watch </h4>
+<form action="./index.php">
+<input type="text" placeholder="username"/>
+<br>
+<br>
+<input type="password" placeholder="password" />
+<br>
+<br>
+
+
+<br>
+<br>
+<textarea name="feedback" id="1000" cols="30" rows="10"></textarea>
+
+<input type="submit" value="submit"/>
+</form>
+ 
+</body>
+</html>
