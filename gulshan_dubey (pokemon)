@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Website</title>
+  </head>
+  <body>
+    <div id="intro">
+      <img
+        height="200"
+        width="600"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png"
+        alt=""
+      />
+      <p>
+        Pokémon[a][1][2][3] (an abbreviation for Pocket Monsters[b] in Japan) is
+        a Japanese media franchise managed by The Pokémon Company, a company
+        founded by Nintendo, Game Freak, and Creatures. The franchise was
+        created by Satoshi Tajiri in 1996,[4] and is centered on fictional
+        creatures called "Pokémon". In Pokémon, humans, known as Pokémon
+        Trainers, catch and train Pokémon to battle other Pokémon for sport. All
+        media works within the franchise are set in the Pokémon universe. The
+        English slogan for the franchise is "Gotta Catch 'em All!".[5][6] There
+        are currently 913 Pokémon species.[7]
+      </p>
+      <video
+        controls
+        loop
+        poster="https://pbs.twimg.com/media/EcQTwZxWsAI5thr.jpg:large"
+        height="300"
+        src="https://ia800409.us.archive.org/16/items/PokemonOriginalIntro/Pokemon%20Original%20Intro.mp4"
+      ></video>
+      <p>
+        There have been 23 animated theatrical Pokémon films (latest film to be
+        released on December 25, 2020[45]), which have been directed by Kunihiko
+        Yuyama and Tetsuo Yajima, and distributed in Japan by Toho since 1998.
+        The pair of films, Pokémon the Movie: Black—Victini and Reshiram and
+        White—Victini and Zekrom are considered together as one film.
+        Collectibles, such as promotional trading cards, have been available
+        with some of the films. Since the 20th film, the films have been set in
+        an alternate continuity separate from the anime series.
+      </p>
+    </div>
+    <br />
+    <div id="hero">
+      <h2>Ash Ketchum</h2>
+      <img
+        height="150"
+        width="300"
+        src="https://sportshub.cbsistatic.com/i/2021/03/18/cb9da93a-cb6d-4c82-925c-185d169a3166/pokemon-journeys-ash-pikachu-netflix-anime-1217515.jpg"
+        alt=""
+      />
+      <p>
+        Ash Ketchum, known as Satoshi in Japan, is a fictional character in the
+        Pokémon franchise owned by Nintendo. He is the protagonist of the
+        Pokémon anime and certain manga series as well as on various merchandise
+        related to the franchise. In Japanese, the character is voiced by Rika
+        Matsumoto, and Hana Takeda.
+      </p>
+      <br />
+      <h2>Gary Oak</h2>
+      <img
+        height="150"
+        width="300"
+        src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/01/ErIZI89UYAEBP_5.jpg"
+        alt=""
+      />
+      <p>
+        Gary Oak is Professor Oak's grandson and Ash Ketchum's rival in the
+        first few seasons. His starter Pokémon was a Squirtle that later evolved
+        into a Blastoise. The day Gary started out on his Pokémon journey, he
+        came off as an arrogant and egotistical Trainer. His chosen starter
+        Pokémon was Squirtle, which was actually the same Pokémon that Ash
+        originally wanted to start with.
+      </p>
+      <br />
+      <br />
+      <h2><strong>Ash Ketchum ----VS---- Gary Oak</strong></h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/AG4GSlMhGHs"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div id="form">
+      <form action="./index.php">
+        <caption>
+          <h1><u>Nintendo-User :-</u></h1>
+        </caption>
+        <input type="text" placeholder="@username" />
+        <br />
+        <br />
+        <input type="password" placeholder="password" />
+        <br />
+        <br />
+        <h3>Select Monster from below :-</h3>
+        <select name="monsters" id="monsters">
+          <option value="Pikachu">Pikachu</option>
+          <option value="Bulbasaur">Bulbasaur</option>
+          <option value="Squirtle">Squirtle</option>
+          <option value="Rattata">Rattata</option>
+        </select>
+        <br />
+        <br />
+        <br />
+        <textarea name="feedback" id="feedback" cols="40" rows="10"></textarea>
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <br />
+  </body>
+</html>
