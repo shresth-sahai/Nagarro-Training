@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="margin-left: 40%;">Pokemon Page</h1>
+
+    <div style="margin-left: 15%; margin-right: 15%;">
+
+        <img style="margin-left: 27%;"
+            src="data:image/png;base64,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"
+            alt="pikachu-img">
+
+        <h2>Ash</h2>
+        <p>Ash Ketchum, known as Satoshi in Japan, is a fictional character in the Pokémon franchise owned by Nintendo.
+            He
+            is the protagonist of the Pokémon anime and certain manga series as well as on various merchandise related
+            to
+            the franchise. In Japanese, the character is voiced by Rika Matsumoto, and Hana Takeda. In the English dub,
+            he
+            was voiced by Veronica Taylor in the first eight seasons and has been voiced by Sarah Natochenny since
+            season 9.
+            In the Hindi dub, Prasad Barve dub Season 1–14 for Cartoon Network, Season 10 for Disney and Nachiket Dighe
+            for
+            Season 1–9, 11–present for Disney. In the Korean dub, he was voiced by Choi Deok-Hui in the first five
+            seasons
+            and first two films, An Hyeon-Seo in Pokémon films three through five, and has been voiced by Lee Seon-ho
+            since
+            season six and the sixth Pokémon film.</p>
+
+        <h2>Gary</h2>
+        <p>Gary Oak is a character appearing in Pokémon the Series. He is the grandson of Professor Oak and the rival of
+            Ash
+            Ketchum in the first few seasons. His Starter Pokémon was a Squirtle, later evolving into a Blastoise.
+        </p>
+        <br><br>
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/a-LgVJ77Gic"
+            title="UK: The Power of Ash-Greninja! | Pokémon the Series: XYZ | Official Clip" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <br><br>
+
+        <form action="#">
+
+            <label for="name">Enter Name: </label>
+            <input type="text" id="name" value="name">
+            <br><br>
+            <label for="pwd">Enter Password: </label>
+            <input type="password" id="pwd" value="pwd">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
