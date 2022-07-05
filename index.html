@@ -1,14 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  <h1> Hello World ! </h1>
-  <p> Welcome to CSS 3.0 World </p>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokemon</title>
+        <link rel="icon" href="favicon.ico">
+        <style>
+            .header{
+                display: flex;
+                justify-content: center;
+            }
+            .ashcontent,.garycontent{
+                display: flex;
+                justify-content: space-around;
+            }
+            .pokemonvideo{
+                display: flex;
+                justify-content: center;
+            }
+            .statement{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+            .querycaption,.query{
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <img src="pokemon.png" alt="Pokemon">
+        </div>
+        <div class="ashcontent">
+            <div class="ashpokemon" >
+                <img src="pikachu.png" alt="pikachu">
+            </div>
+            <div class="ashstatement">
+                <p class="statement">Pikachu is a yellow mouse Pokémon from the fictional Pokémon world that was created by Satoshi Tajiri. Pikachu is the mascot of the Pokémon franchise, and one of the main characters of the Pokémon anime series. It has also appeared in most Pokémon video games and merchandise. In the video game Pokémon Yellow, it is the player's starter Pokémon. In the anime series, Pikachu is Ash's first Pokémon.
+                    Pikachu is an electric-type Pokémon, which attacks using electricity from two red pouches on its cheeks.
+                    Pikachu evolves from a baby Pokémon called Pichu if it loves its trainer. Pikachu can evolve into Raichu, which is bigger and stronger than Pikachu.</p>
+            </div>
+        </div>
+        <div class="pokemonvideo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_0fktNnvy4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="garycontent">
+        <div class="garypokemon" >
+            <img src="bulbasaur.png" alt="bulbasaur">
+        </div>
+        <div class="garystatement">
+            <p class="statement">Bulbasaur is a Grass/Poison-type Pokémon species in Nintendo and Game Freak's Pokémon franchise. It is the first in the franchise's monster index, called a Pokédex. Designed by Atsuko Nishida, Bulbasaur debuted in Pocket Monsters: Red and Green (Pokémon Red and Blue outside Japan) as a starter Pokémon. Since then, it has reappeared in subsequent sequels, spin-off games, related merchandise, and animated and printed adaptations of the franchise.
+
+                Known as the Seed Pokémon, Bulbasaur can survive for days solely on sunlight. It likes to take a nap in the sunshine. While it sleeps, the seed on its back catches the rays and uses the energy to grow. It is a central character in the Pokémon anime, being one of Ash Ketchum's main Pokémon for the first season, and a different one later being obtained by May. It is featured in various manga, and is owned by protagonist Red in the Pokémon Adventures manga. Bulbasaur has been featured in myriad pieces of merchandise, including toys, key chains, and plush dolls.
+                
+                Bulbasaur can evolve into Ivysaur at level 16, and can further evolve into Venusaur at level 32. Venusaur can also evolve into Mega Venusaur if the player equips it with a Venusaurite, but this feature was only first added to the Pokémon games in Pokémon X and Y.
+                
+                The fan wiki Bulbapedia, a wiki dedicated solely to the Pokémon franchise, is named after Bulbasaur.
+                
+                .</p>
+        </div>
+    </div>
+    <div class="pokemonvideo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/N9DVZRs4jx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="querycaption">
+        <h3>Query</h3>
+    </div>
+    <div class="query">
+        <form action="index.php">
+            <label for="fname">First Name : </label>
+            <input type="text" name="fname" id="fname"><br>
+            <label for="lname">Last Name : </label>
+            <input type="text" name="lname" id="lname"><br>
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" id="gender">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="gender">
+            <label for="female">Female</label><br>
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    </body>
 </html>
