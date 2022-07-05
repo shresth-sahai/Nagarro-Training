@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Website </title>
+</head>
+
+<body>
+    <div>
+        <!--adding text about pokemon--> 
+        <h1 style="text-align:center">Pokemon</h1>
+        <p>Pokémon (an abbreviation for Pocket Monsters[b] in Japan) is a Japanese media franchise managed by The
+            Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by
+            Satoshi Tajiri
+            in 1996,[4] and is centered on fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon
+            Trainers,
+            catch and train Pokémon to battle other Pokémon for sport. All media works within the franchise are set in
+            the Pokémon
+            universe. The English slogan for the franchise is "Gotta Catch ‘Em All!".[5][6] There are currently 913
+            Pokémon
+            species.</p>
+    </div>
+    <br>
+    <div>
+        <!--adding image and text related to ash-->
+        <h3 style="text-align:center">Ash pokemon: Pikachu</h3>
+        <center><img  height="300" width="300" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
+            alt="Random images"></center>
+
+        <h3 style="text-align:center">About Ash</h3>
+        <p>Ash Ketchum is the main protagonist of Pokémon the Series. He is a 10-year-old Pokémon Trainer from Pallet
+            Town in the
+            Kanto region who has always dreamed of becoming the world's greatest Pokémon Master. The first human
+            character to be
+            introduced in the series, he is the winner of the Orange League and Kanto Battle Frontier and also the Alola
+            region's
+            Pokémon Champion, receiving the title after winning its first Pokémon League Conference. He is also one of
+            the 8 best
+            trainers in the Pokémon World after defeating Raihan and reached Master Class in the World Coronation
+            Series.</p>
+    </div>
+    <br>
+    <div>
+        <!--adding images and text related to gary-->
+        <h3 style="text-align:center">Gary pokemon: Arcanine</h3>
+        <center><img height="300" width="300"
+            src="https://archives.bulbagarden.net/media/upload/thumb/f/fe/Gary_Arcanine.png/200px-Gary_Arcanine.png"
+            alt="Random images"></center>
+
+        <h3 style="text-align:center">About Gary</h3>
+        <p>Gary Oak (Japanese: オーキド・シゲル Shigeru Okido) is a recurring character who appeared in the Pokémon anime. He is
+            a Pokémon
+            Researcher from Pallet Town and grandson of Professor Oak. He is a childhood friend of Ash Ketchum and his
+            main rival in
+            the original series. In Pokémon Journeys: The Series, he serves as Goh's rival in Project Mew. His Japanese
+            name is
+            derived from Shigeru Miyamoto.</p>
+    </div>
+    <br>
+    <div>
+        <!--adding video of pokemon trailer-->
+        <h2 style="text-align:center">Pokemon Trailer</h2>
+        <center><video width="500" height="300" controls>
+            <source
+                src="https://r3---sn-npoldn7e.googlevideo.com/videoplayback?expire=1657060382&ei=vmfEYtaCMdahxN8P2-WIsAo&ip=163.172.44.23&id=o-AL2b-WCO3xVb-zjICkfb30PzWfGJmRLB_lcjAKfRvla_&itag=18&source=youtube&requiressl=yes&spc=lT-Khvdi8V7_oddGn9HacwEzV7lGAxc&vprv=1&mime=video%2Fmp4&ns=L4je59cUQyU7DjrD2NUXQFgH&gir=yes&clen=1946843&ratebypass=yes&dur=30.093&lmt=1550257709236971&fexp=24001373,24007246&c=WEB&txp=5531432&n=N1wI8n_dMCMKmg&sparams=expire,ei,ip,id,itag,source,requiressl,spc,vprv,mime,ns,gir,clen,ratebypass,dur,lmt&sig=AOq0QJ8wRQIhALTSKZqayz4s4PPCHxCyf-8bhPJTK5sxb0WrImJfsQ5sAiBXUa3OACy7dmtBC-4pmfKvtqYZuP14ZX_2Pm5HhNZD8Q%3D%3D&cm2rm=sn-ci5gup-qxaee7e,sn-qxae67l&req_id=54bda4c218faa3ee&ipbypass=yes&redirect_counter=2&cms_redirect=yes&cmsv=e&mh=hv&mip=223.233.64.22&mm=34&mn=sn-npoldn7e&ms=ltu&mt=1657038764&mv=m&mvi=3&pl=23&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAOF6jp8x4lun3IZ_3ItXM31_ukh6C3rulFgwYu-Is75lAiEAjmv9EuKbBWN6LhdjrDq1Bt5Z5KM-K8JvOkZBy4ejtG0%3D"
+                type="video/mp4"> </video></center>
+    </div>
+    <br>
+    <div>
+        <!--adding iframe for pokemon-->
+        <h2 style="text-align:center">All about Pokemon</h2>
+        <center><iframe width="900" height="500" src="https://en.wikipedia.org/wiki/Pok%C3%A9mon" frameborder="0"></iframe></center>
+    </div>
+    <br><br>
+    <div>
+        <!--adding registration form-->
+        <h2 style="text-align:center">Registeration Form </h2>
+        <form style="text-align:center" action="./index.php">
+            <input type="text" placeholder="username" />
+            <br><br>
+            <input type="password" placeholder="password" />
+            <br><br>
+            <center><textarea name="feedback" id="1000" cols="30" rows="10"></textarea></center>
+            <input type="submit" value="submit" />
+        </form>
+    </div>
+</body>
+
+</html>
