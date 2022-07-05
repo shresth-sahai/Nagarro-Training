@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>July 4 2022
+
+    </title>
+</head>
+
+<body>
+    <center>
+        <h1><b>
+                Pokemon
+            </b></h1>
+        <hr color="red" size="5px">
+        <p><b><em>Pokémon</em></b> is a Japanese media franchise managed by
+            The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by
+            Satoshi Tajiri in 1996, and is centered on fictional creatures called "Pokémon". In Pokémon, humans, known
+            as
+            Pokémon Trainers, catch and train Pokémon to battle other Pokémon for sport. All media works within the
+            franchise are set in the Pokémon universe. The English slogan for the franchise is "Gotta Catch ‘Em All!".
+            There are currently 913 Pokémon species.</p>
+        <img width="500px"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png" />
+       
+        <h1>Ash Ketchum</h1>
+        <hr width="30%" color="blue">
+
+        <p>Ash Ketchum (Japanese: サトシ Satoshi) is the main character of the Pokémon anime. He is also the main character
+            of various manga based on the anime, including The Electric Tale of Pikachu, Ash & Pikachu, and Pocket
+            Monsters Diamond & Pearl.
+
+            He is a Pokémon Trainer from Pallet Town whose goal is to become a Pokémon Master. His starter Pokémon was a
+            Pikachu that he received from Professor Oak after arriving late at his laboratory. On his journeys around
+            the Pokémon world, he's been accompanied by a multitude of close friends. In Pokémon the Series: Sun & Moon,
+            he becomes the first Champion of the Alola region's Pokémon League. In Pokémon Journeys: The Series, he
+            becomes one of the eight best Trainers in the world within the World Coronation Series.</p>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLgVFvZAALXPOaLEIowJtC8vGXS8G2nthbQ&usqp=CAU"
+            alt="">
+
+        <h2>Ash's Pokemon</h2>
+        <img width="300px" src="https://assets.puzzlefactory.com/puzzle/254/191/original.jpg" alt="" />
+        <img width="300px"
+            src="https://png.pngitem.com/pimgs/s/130-1306754_pokemon-bulbasaur-hd-png-download.png" />
+        <img width="350px" src="https://upload.wikimedia.org/wikipedia/en/1/1f/Pok%C3%A9mon_Charizard_art.png" />
+        
+        <h1>Garry Oak</h1>
+        <hr width="30%" color="blue">
+
+        <p>Gary Oak (Japanese: オーキド・シゲル Shigeru Okido) is Ash Ketchum’s first major rival and a recurring protagonist
+            from Pokémon the Series. He is based on Blue Oak from Pokémon Red and Blue. He appeared as a recurring
+            antagonist in the first series, later becomes one of the supporting characters for the rest of the series.
+
+            Gary was originally close to Ash when they were younger, though their friendship ended after having an
+            argument over an old Poké Ball and eventually breaking it. After losing to Ash in the first round of the
+            Silver League Conference, the two eventually became friends again altogether.</p>
+        <img src="https://www.absoluteanime.com/pokemon/gary.gif" />
+        <h2>Garry's Pokemon</h2>
+
+        <img width="300px"
+            src="https://2.bp.blogspot.com/-atzUuc_vK_Y/VuYP0hNemgI/AAAAAAAAF8s/3G9YSKC439k3x14QbuWOcvXJVEMxaFZbA/s1600/Squirtle.PNG" />
+        <img width="300px"
+            src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png" />
+        <img width="320px" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/466.png" />
+        <br />
+
+
+        <div align="center">
+            <h1 align="center">Pokemon Clips</h1>
+            <iframe width="25%" height="195" src="https://www.youtube.com/embed/AG4GSlMhGHs"></iframe>
+            <iframe width="25%" height="195" src="https://www.youtube.com/embed/YJ0Vxu4cW64"></iframe>
+            <iframe width="25%" height="195" src="https://www.youtube.com/embed/dKPFcfXj8I4"></iframe>
+        </div>
+        <div>
+            <h1>Feedback Form</h1>
+            <form>
+                UserID : <input type="text" name="userid" />
+                <br><br>
+                Password: <input type="password" name="password" /><br><br>
+                Feedback : <br>
+                <textarea rows="7" cols="70" name="feedback">
+                   Enter your feedback
+                </textarea>
+                <br>
+                <input type="Submit" value="Submit" />
+            </form>
+            <br />
+
+    </center>
+</body>
+
+</html>
