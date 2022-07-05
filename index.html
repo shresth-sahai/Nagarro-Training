@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  <h1> Hello World ! </h1>
-  <p> Welcome to CSS 3.0 World </p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon-Website</title>
+    <style>
+      #detail {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body style="margin: 0 5rem">
+    <div id="pokemon">
+      <h1 style="text-align: center; font-size: 3rem">Pokemon</h1>
+      <p>
+        Ten-year-old Ash aspires to be the greatest Pokémon (pocket monster)
+        trainer in the world. To do this, he enlists the help of many friends,
+        and his own Pokémon, Pikachu. Together, they must search their world for
+        new Pokémon, while avoiding the likes of Team Rocket, as well as other
+        evil organizations, as well as battling rivals, and meeting legendary
+        Pokémon.
+      </p>
+    </div>
+
+    <div id="ash">
+      <h2 style="text-align: center; font-size: 3rem">Ash Ketchum</h2>
+      <div id="detail">
+        <img src="Ash.png" alt="" style="height: 200px; width: 100px" />
+        <p>
+          Ash Ketchum, known as Satoshi in Japan, is a fictional character in
+          the Pokémon franchise owned by Nintendo. He is the protagonist of the
+          Pokémon anime and certain manga series as well as on various
+          merchandise related to the franchise. Due to the huge popularity,
+          success, and longevity of the Pokémon anime series around the world
+          since its debut, Ash has gone on to become one of the most well-known
+          and recognizable fictional characters of all-time.
+        </p>
+      </div>
+    </div>
+    <div id="gary">
+      <h2 style="text-align: center; font-size: 3rem">Gary Oak</h2>
+      <div id="detail">
+        <img src="Gary.webp" alt="" style="height: 200px; width: 100px" />
+        <p>
+          Ash Ketchum, known as Satoshi in Japan, is a fictional character in
+          the Pokémon franchise owned by Nintendo. He is the protagonist of the
+          Pokémon anime and certain manga series as well as on various
+          merchandise related to the franchise. Due to the huge popularity,
+          success, and longevity of the Pokémon anime series around the world
+          since its debut, Ash has gone on to become one of the most well-known
+          and recognizable fictional characters of all-time.
+        </p>
+      </div>
+    </div>
+
+    <iframe
+      src="video.mp4"
+      frameborder="0"
+      height="500px"
+      width="500px"
+      style="margin-top: 50px; margin-left: 400px"
+    >
+    </iframe>
+
+    <form action="a.php" style="margin:100px;">
+        <label for="fname">Name:</label>
+        <br>
+        <input type="text">
+        <br><br>
+        <label for="password">Password: </label>
+        <br>
+        <input type="password">
+        <br><br>
+        <input type="submit">
+    </form>
+  </body>
 </html>
