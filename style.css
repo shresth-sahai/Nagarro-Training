@@ -1,10 +1,79 @@
-h1{
-  font-size:55px;
-  color:green;
-    text-decoration:underline;
- font-family: Courier New;
+.title-img{
+    height:250px;
+    width:700px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
 }
-p{
-  font-size:35px;
-  font-family:Helvetica;
+.title-vdo{
+    width:"40%" ;
+    height:"500" ;
+ 
+    
 }
+hr{
+    height: 5px;
+    background-color: rgb(87, 37, 37);
+    border: none;
+   
+   
+}
+.xyz{
+    font-size: large;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.abc{
+    height:300px;
+    width:500px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+.main-text{
+    font-size: large;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+.last{
+    margin-top:45px;
+    margin-bottom:45px;
+}
+form {
+    width: 400px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  input, textarea {
+    padding: 12px;  
+    margin: 6px 6px 6px 0;
+  }
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=reset] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: darkgreen;
+    color: lightblue;
+  }
+  
+  input[type=reset]:hover {
+    background-color: white;
+    color: blue;
+  }
