@@ -1,0 +1,23 @@
+h1{
+  font-size:55px;
+  color:green;
+    text-decoration:underline;
+ font-family: Courier New;
+  margin:140px
+}
+p{
+   color:red;
+  font-size:35px;
+  font-family:Helvetica;
+}
+
+
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
