@@ -37,7 +37,7 @@
     width="1500"
     height="600"
     src="https://pokemon.fandom.com/wiki/Pok%C3%A9mon_Wiki" 
-    title="Dark knight trailer"
+    title="Pokemon"
     allowfullscreen
      
     frameborder="0"></iframe>
@@ -63,7 +63,7 @@
 
         <br>
         <h3>Pokemon Description</h3>
-        <textarea name="jobrole" id="jobrole" cols="80" rows="10"></textarea> <br>
+        <textarea name="description" id="jobrole" cols="80" rows="10"></textarea> <br>
         <input type="submit">
     </form>
   
