@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Pokemon : All About Pocket Monsters</h1>
+    <p>Pokémon was invented by a Japanese man named Satoshi Tajiri and his friend Ken Sugimori, who is an illustrator. Back in 1982 Satoshi started a gaming magazine together with his friends called Game Freak, but after a while he decided to start making his own video games, instead of writing about them.</p>
+     <img width="480" height="360" src="https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2016/01/27/1331773363728_2/ash-and-company">
+     <p>Ash Ketchum, known as Satoshi (サトシ) in Japan, is a fictional character in the Pokémon franchise owned by Nintendo. He is the protagonist of the Pokémon anime and certain manga series as well as on various merchandise related to the franchise. In Japanese, the character is voiced by Rika Matsumoto, and Hana Takeda. In the English dub, he was voiced by Veronica Taylor in the first eight seasons and has been voiced by Sarah Natochenny since season 9. In the Hindi dub, Prasad Barve dub Season 1–14 for Cartoon Network, Season 10 for Disney and Nachiket Dighe for Season 1–9, 11–present for Disney. In the Korean dub, he was voiced by Choi Deok-Hui in the first five seasons and first two films, An Hyeon-Seo in Pokémon films three through five, and has been voiced by Lee Seon-ho since season six and the sixth Pokémon film.</p>
+    <iframe width="480" height="360" src="https://www.youtube.com/embed/Zk7M3XLKqI4" title="Every Ash Ketchum Ranked from Worst to Best" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Gary Oak is Ash Ketchum's first major rival and a recurring protagonist from Pokémon the Series. He is based on Blue Oak from Pokémon Red and Blue. He appeared as a recurring antagonist in the first series, later becomes one of the supporting characters for the rest of the series.</p>   
+      <iframe width="480" height="360" src="https://i.pinimg.com/originals/9d/d5/17/9dd5173595352774fdeec13d9829535c.jpg" ></iframe>
+      <br>
+      <h1>Submit your details </h1>
+      <form action="">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <br>
+        <button>Submit</button>
+      </form>
+    </body>
+</html>
