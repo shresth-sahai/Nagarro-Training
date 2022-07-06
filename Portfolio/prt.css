@@ -1,0 +1,72 @@
+body{
+    background-image: url('images/one.jpg');
+}
+.topnav{
+    overflow: hidden;
+    background-color: black;
+    height: 45px;
+    margin: 20px; 
+}
+.topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px;
+   
+}
+
+.unordered{
+    float: left;
+    margin-left: 0%;
+}
+
+.links {
+margin-top:20px;
+text-decoration: none;
+margin-right: 5px;
+display: block;
+}
+
+.links  img{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.first{
+    float: right; 
+    width: 50%;
+    align-items: center;
+    text-align: left;
+}
+
+.edit {
+color: palevioletred;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mypic{
+    float: right;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-right: 20px;
+    border: 5px solid black;
+    align-items: center;
+}
+
+.btn{
+    border-radius: 50px;
+    background-color: slateblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    color: black;
+    cursor: pointer;
+    display: block;
+}
