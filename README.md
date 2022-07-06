@@ -1,1 +1,0 @@
-# Nagarro-Training
