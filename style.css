@@ -1,10 +1,78 @@
-h1{
-  font-size:55px;
-  color:green;
-    text-decoration:underline;
- font-family: Courier New;
+*
+{
+    margin: 0;
+    padding: 0;
 }
-p{
-  font-size:35px;
-  font-family:Helvetica;
+.portfolio
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(63, 63, 188), rgb(197, 192, 223));
+}
+img
+{
+  
+    border-radius: 50%;
+}
+.navlist
+{
+   display: flex;
+   padding: 25px;
+   list-style: none;
+   float: right;
+}
+.navlist li a
+{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navlist li a:hover
+{
+   color: rgb(255, 255, 255);
+}
+.info
+{
+    margin-top: 15px;
+}
+ul
+{
+    display: flex;
+    list-style: none;
+}
+ul li a i
+{
+    margin-right: 45px;
+}
+ul li a i:hover
+{
+    color: rgba(255, 255, 255, 0.731);
+}
+.connect
+{
+    display: flex; flex-direction:column;
+    margin-top: 180px;
+}
+.main
+{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 100px;
+}
+h1
+{
+    font-size: 64px;
+}
+.links
+{
+    background-color: black;
+    margin-bottom: 60px;
+}
+.aboutme
+{
+    padding: 45px;
 }
