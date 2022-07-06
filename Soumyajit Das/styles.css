@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #cfccff;
+  color: #030033;
+}
+
+body {
+  height: auto;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: 030033;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 6.4rem;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  backdrop-filter: blur(16px);
+  border-bottom: 2px solid #cfccff;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 1rem;
+  background: #6c63ff;
+  color: #ffffff;
+  user-select: none;
+}
+
+div {
+  min-height: 100vh;
+  width: 100%;
+  padding: 8rem 8rem 2rem 8rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.heading {
+  color: #03003380;
+  font-size: 6.4rem;
+  font-weight: 900;
+  letter-spacing: 2.4rem;
+  text-transform: lowercase;
+}
+
+nav > a {
+  position: relative;
+}
+
+nav > a::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: -12.5%;
+  width: 0;
+  height: 0.08rem;
+  border-radius: 50%;
+  background-color: #030033;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 150ms;
+}
+
+nav > a:hover:after {
+  width: 125%;
+}
+
+#home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "section svg";
+}
+
+#home > section {
+  grid-area: section;
+  padding-right: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+#home > section > h1 {
+  font-size: 3.2rem;
+}
+
+#home > section > h1 > span {
+  display: block;
+}
+
+#home > section > button {
+  font-size: 1.8rem;
+  border-radius: 2.4rem;
+  padding: 0.75rem 1.25rem;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 150ms;
+  box-shadow: 0 10px 15px -3px #030033c0, 0 4px 6px -4px #030033c0;
+}
+
+#home > section > button:hover {
+  transform: scale(1.125);
+  box-shadow: 0 20px 25px -5px #030033c0, 0 8px 10px -6px #030033c0;
+}
+
+#home > svg {
+  grid-area: svg;
+  width: 80%;
+  justify-self: center;
+  align-self: center;
+  border: 0.01rem solid #6c63ff;
+  border-radius: 50%;
+}
+
+#about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "svg section";
+}
+
+#about > section {
+  grid-area: section;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.8rem;
+}
+
+#about > section > p {
+  font-size: 1.6rem;
+}
+
+#about > svg {
+  grid-area: svg;
+  width: 80%;
+  justify-self: center;
+  align-self: center;
+  transform: scaleX(-1);
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+}
+
+#skills > section {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0 4.8rem;
+}
+
+#skills > section > svg {
+  width: 6.4rem;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 150ms;
+}
+
+#skills > section > svg:hover {
+  transform: scale(1.25);
+}
+
+#portfolio {
+  display: grid;
+  gap: 4.8rem;
+  grid-template-columns: 1fr;
+}
+
+.project {
+  border: 0.2rem solid #030033c0;
+  border-radius: 2.4rem;
+  padding: 2.4rem;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.project > h2 {
+  position: absolute;
+  top: -1.2rem;
+  left: 2.4rem;
+  padding: 0 1.2rem;
+  background: #ffffff;
+  border-inline: 0.2rem solid #030033c0;
+}
+
+.project > h2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 0;
+  height: 0.08rem;
+  border-radius: 50%;
+  background-color: #030033;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 150ms;
+}
+
+.project:hover > h2::after {
+  width: 80%;
+}
+
+.project > h2 > a > svg {
+  color: #030033;
+  font-size: 1.2rem;
+  vertical-align: top;
+  margin-left: 0.2rem;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact > section {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0 3.2rem;
+}
+
+#contact > section > a {
+  font-size: 4.8rem;
+  color: #030033;
+  padding: 1rem;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 150ms;
+}
+
+#contact > section > a:hover {
+  transform: scale(1.25);
+}
