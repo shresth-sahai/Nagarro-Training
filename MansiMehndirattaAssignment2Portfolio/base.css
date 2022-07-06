@@ -1,0 +1,56 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    }
+
+body{
+    background-image: radial-gradient(rgb(108, 78, 163), rgb(41, 21, 58), rgb(32, 25, 37));
+}
+
+section{
+    padding: 5vw 5vw 5vw 5vw;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+p{
+    text-align: center;
+    width: 500px;
+    font-size: large;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content{
+    width: auto;
+    margin-top: 5vw;
+    margin-left:10vw;
+    margin-right: 10vw;
+}
+
+.contact_logo{
+    width: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 50px;
+}
+
+.btn{
+    background-color: aqua;
+    color: black;
+    align-self: center;
+    font-size: 24px;
+}
+
+.footer{
+    background-color: black;
+}
