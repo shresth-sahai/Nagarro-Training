@@ -1,10 +1,64 @@
-h1{
-  font-size:55px;
-  color:green;
-    text-decoration:underline;
- font-family: Courier New;
+* {
+font-family: 'Roboto', sans-serif;    
+color: white;
+
 }
-p{
-  font-size:35px;
-  font-family:Helvetica;
+
+
+
+section {
+    padding: 5vw 5vw 5vw 5vw;
 }
+
+img{
+    border-radius: 50%;
+    width: 400px;
+    margin-left: 500px;
+}
+
+.d-flex {
+    display:flex;
+    align-items:center;
+     flex-wrap: wrap; 
+     padding-left: 50px;
+    
+    
+}
+
+
+.title {
+    font-size: 50px;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.content {
+    width: auto;
+
+    margin-left: 100px;
+
+    
+    
+}
+
+.logo {
+    width: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 10px;
+}
+
+.btn {
+    background-color: rgb(47, 89, 241);
+    color: rgb(255, 255, 255);
+    align-self: center;
+    font-size: 35px;
+    border-radius:700px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 40px;
+    margin-right:30px ;
+    
+}
+
