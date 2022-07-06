@@ -1,0 +1,143 @@
+<-- HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iAbhishek</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+ <link href="style.css" rel="stylesheet">
+</head>
+
+<body background="https://wallpaperaccess.com/full/5651989.jpg">
+   
+    <section id="about">
+        <div class="d-flex">
+            
+            <span>
+                <h1 class="title" id="hello">Hi There,</h1>
+                <h1 class="title" id="hello">I'm Abhishek Jha</h1> 
+                <h1>I'm into Software Development ! </h1>
+                <br>
+                
+                <center>
+                    <a href="index.html#contact">
+                        <button class="btn ">About Me !</button>
+                    </a>
+                </center>
+                
+            </span>
+            <span>
+                <!-- circular photo -->
+                <img
+                    src="https://pps.whatsapp.net/v/t61.24694-24/260951678_104139008725920_2441215073330563040_n.jpg?ccb=11-4&oh=01_AVw1JgR-ekIUpG4XclLM1_PyVtD_6VsQC4Zz9Eb5L7QeIw&oe=62D31639">
+            </span>
+        </div>
+        
+    </section>
+    
+         <!-- contacts  -->
+            
+            <div class="content d-flex">
+                <span>
+                    <a href="https://github.com/abhishekjha812" target="_blank">
+                        <img src="https://img.icons8.com/fluency/48/000000/github.png" class="logo" />
+                    </a>
+                </span>
+                <span>
+                    <a href="https://twitter.com/abhishe65772158" target="_blank">
+                        <img src="https://img.icons8.com/fluency/48/000000/twitter-circled.png" class="logo" />
+                    </a>
+                </span>
+                <span>
+                    <a href="#" target="_blank">
+                    <img src="https://img.icons8.com/fluency/48/000000/facebook-new.png" class="logo" />              
+                    </a>
+                </span>
+                <span>
+                    <a href="https://www.instagram.com/abhiabhi_shek19/" target="_blank">
+                        <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" class="logo"/>
+                    </a>
+                </span>
+                <span>
+                    <a href="https://www.linkedin.com/in/abhishek-jha-07743a118/" target="_blank">
+                        <img src="https://img.icons8.com/fluency/48/000000/linkedin.png" class="logo"/>
+                    </a>
+                </span>
+                
+            </div>
+        
+</body>
+
+</html>
+
+
+<--CSS -->
+
+* {
+font-family: 'Roboto', sans-serif;    
+color: white;
+
+}
+
+
+
+section {
+    padding: 5vw 5vw 5vw 5vw;
+}
+
+img{
+    border-radius: 50%;
+    width: 400px;
+    margin-left: 500px;
+}
+
+.d-flex {
+    display:flex;
+    align-items:center;
+     flex-wrap: wrap; 
+     padding-left: 50px;
+    
+    
+}
+
+
+.title {
+    font-size: 50px;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.content {
+    width: auto;
+
+    margin-left: 100px;
+
+    
+    
+}
+
+.logo {
+    width: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 10px;
+}
+
+.btn {
+    background-color: rgb(47, 89, 241);
+    color: rgb(255, 255, 255);
+    align-self: center;
+    font-size: 35px;
+    border-radius:700px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 40px;
+    margin-right:30px ;
+    
+}
+
