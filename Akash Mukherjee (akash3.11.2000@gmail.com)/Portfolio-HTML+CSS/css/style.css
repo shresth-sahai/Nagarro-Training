@@ -211,7 +211,6 @@ footer {
     display: inline-block;
     position: absolute;
     right: 0px;
-    top: 0px;
   }
   .nav-btn > label {
     display: inline-block;
@@ -233,15 +232,16 @@ footer {
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 50px;
+    top: 68px;
     left: 0px;
     z-index: 2;
   }
-  .nav-links > a {
+  .nav-links a {
     text-align: center;
     color: var(--bg-color);
     font-size: 2rem;
     display: block;
+    margin: 0;
     width: 100%;
   }
   #nav-check:not(:checked) ~ .nav-links {
