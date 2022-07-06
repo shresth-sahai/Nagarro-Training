@@ -1,0 +1,140 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("./bg1.jpg");
+    background-size: cover;
+    background-position: right;
+    overflow: hidden;
+}.navbar{
+    background-color: rgb(75, 23, 23);
+    border-radius: 15px;
+    box-shadow: 0 20px 100px red;
+}
+.navbar ul{
+    overflow: hidden;
+}
+.navbar li{
+        float:right;
+        list-style: none;
+        margin: 13px 19px ;
+        
+        
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar li a:hover{
+    color: rgb(240, 221, 51);
+    background-color:rgba(96, 104, 112, 0.664) ;
+    transition: all .4s ease;
+    
+    
+}
+.left{
+    padding-top: 2px;
+    font-size: 30px;
+    color: rgb(218, 170, 170);
+    font-family: cursive;
+    font-weight: 700;
+}
+.le{
+  position: relative;
+  float: left;
+  border-radius: 50%;
+  
+}
+.le img{
+    align:left;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 40%;
+    border-top: 3px solid rgb(255, 0, 0);
+    border-bottom: 3px solid rgb(226, 20, 20);
+}
+.ri{
+    position: absolute;
+    right: 200px;
+    width: 300px;
+    padding: 100px;
+    text-align: center;
+    padding-top: 80px;
+}
+.ri h1{
+    color: rgb(255, 0, 0);
+    font-size: 2.5rem;
+    font-weight:9000;
+    line-height:0.5;
+    text-shadow: 0 5px 5px rgb(122, 110, 110);
+
+}
+.ri h3{
+    font-size: 1.3rem;
+    font-weight: 800;
+    line-height: 0.5;
+   
+}
+.ri h3 span{
+    background-color: rgb(255, 211, 16);
+    color: brown;
+}
+.ri p{
+    line-height:1.2;
+    font-weight: 530;
+    color: rgb(120, 42, 165);
+
+}
+.but{
+  background-color: #27bb2c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  transition-duration: 0.4s;
+}
+
+.but:hover{    
+    background-color: #4c830e;
+    transform:scale(1.2);
+}
+
+.but:active{
+    background-color: black;
+    text-decoration:none;
+
+
+}
+
+.ico{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+.ico li:hover{
+  border:1px solid black;
+  transform: scale(1.2);
+  background-color: rgb(238, 164, 164);
+
+}
+.wert{
+    position: absolute;
+    bottom: 6px;
+    left:18%;
+    
+}
+.ico li{
+    margin-left: 13px;
+    font-size: larger;
+    padding: 3px;
+    border: 1px solid transparent;
+}
+a{
+  color: inherit;  
+}
