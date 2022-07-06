@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-image: url("https://meshdesignstudio.com/wp-content/uploads/2018/02/mesh-background-portfolio-lglines.jpg");
+    /*👉background-color: blue;👈*/
+}
+.headerPortion
+{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+.headerPortion .headerSection2
+{
+    margin-top: 3.8rem;
+}
+.headerSection2 a 
+{
+    margin-right: 3rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:hover
+{
+    color:black;   
+}
+.headerPortion p
+{
+    font-size: 2.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.description
+{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons
+{
+    margin-top: 2.5rem;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.social-icons li
+{
+    display: inline-block;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 44px;
+    color: #00d9ff;
+    background-color: #09011b;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.social-icons a.linkedin:hover{
+    background-color: blue;
+}
+
+.social-icons a.github:hover {
+    background-color: black;
+}
+
+.social-icons a.instagram:hover {
+    background-color: red;
+}
+
+.social-icons a.twitter:hover {
+    background-color: lightblue;
+}
+
+.social-icons a.telegram:hover {
+    background-color: white;
+}
+
+.description h1
+{
+    font-size: 3rem;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.description span
+{
+    color: red;
+}
+
+.description h3
+{
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.descriptionImage
+{
+    width : 300px;
+    margin-top: 2rem;
+    border-radius: 50%;
+}
