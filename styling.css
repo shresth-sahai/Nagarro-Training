@@ -1,0 +1,71 @@
+body{
+    background: url('https://us.123rf.com/450wm/peshkova/peshkova1912/peshkova191213132/135761600-empty-spot-on-white-table-full-of-office-tools-mock-up-3d-rendering.jpg?ver=6');
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+}
+.nav-list li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: black;
+    list-style-type: none;
+    padding:16px 30px;
+}
+.nav-list li a{
+    color:black;
+    text-decoration: none;
+}
+.container{
+    margin:16px;
+    padding: 10px;
+    display: flex;
+}
+.container div{
+    margin:26px;
+    padding:18px;
+    width:70%
+}
+.container img{
+    margin:26px;
+    padding: 16px;
+    width:30%;
+}
+#content p{
+    padding:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:red;
+} 
+.container img{
+    padding:0;
+    border:2px solid green;
+    border-radius: 100px;
+}
+#image img{
+    width:30%;  
+    height: 60%; 
+}
+.social
+{
+    margin: 16px;
+    padding:5px;
+}
+#media p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    color: green;
+}
+.media{
+    margin-left: 40px;
+    padding:16px;
+}
+#media img{
+    padding:8px;
+    width:25px;
+}
