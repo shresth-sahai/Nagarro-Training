@@ -1,0 +1,160 @@
+*{
+    border: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+body{
+    
+   
+    background: url("https://images.pexels.com/photos/6862621/pexels-photo-6862621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+   
+}
+.navbar{
+    background-color: rgb(0, 21, 40);
+    color: #D1D9E6;
+    width: 100%;
+    padding-top: 2vh;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.menu-list{
+    display: flex;
+    padding: 10px;
+    
+}
+.menu-list li{
+    list-style: none;
+    margin:0 50px;
+    font-size: 16px;
+    font-weight: 500;
+    
+
+}
+.menu-list li:hover{
+  
+    
+    list-style: none;
+    margin:0 50px;
+
+  
+
+  
+    
+
+}
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+.left{
+    padding: 40px;
+    height: 70vh;
+    width: 50%;
+}
+.myself{
+    margin-top: 40px;
+    font-size: 60px;
+    margin-left: 100px;
+    font-weight: 700;
+}
+.right{
+    
+    height: 70vh;
+    width: 50%;
+    padding: 20px;
+  
+   
+}
+.logo{
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.profile{
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+    width: 300px;
+    height: 300px;
+   
+    background: #E3E6EC;
+box-shadow: 1px 1px 2px #D1D9E6, -1px -1px 2px #FFFFFF;
+border-radius: 1000px;
+border: 10px solid #E3E6EC;
+
+}
+.profile img{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 1000px;
+}
+.footer{
+    
+    height: 5vh;
+}
+.about{
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  border: solid 3px rgb(0, 57, 110);
+  border-radius: 5px;
+  background-color: rgb(0, 57, 110);
+}
+button:hover{
+   
+   background-color: #00112d;
+    border: 3px solid rgb(0, 57, 110);
+}
+.social{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 21, 40)
+    
+}
+.social-list{
+    margin-left: 220px;
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+
+}
+.social-list li {
+
+    margin-right: 20px;
+    padding: 5px;
+     
+    
+}
+.social-list li img{
+
+    width: 50px;
+    
+   
+
+}
+li button{
+    padding: 10px ;
+
+    border-radius: 1000px;
+    border: solid 2px rgb(0, 21, 40);
+}
+.footer{
+    text-align: center;
+    color: rgb(0, 21, 40);
+    font-size: 20px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+    color: #010d21;
+    font-weight:300 ;
+}
