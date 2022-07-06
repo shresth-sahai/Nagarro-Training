@@ -6,8 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokemon-Website</title>
     <style>
-      #detail {
+      #detail, .info{
         display: flex;
+      }
+      #video{
+        display: flex;
+        justify-content: center;
+        flex: 1;
+      }
+      #wiki{
+        display: flex;
+        flex: 1;
+        justify-content: center;
       }
     </style>
   </head>
@@ -54,15 +64,32 @@
         </p>
       </div>
     </div>
-
-    <iframe
+    <div class="info">
+      <div id="video">
+        <iframe
       src="video.mp4"
       frameborder="0"
       height="500px"
       width="500px"
-      style="margin-top: 50px; margin-left: 400px"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen;"
     >
     </iframe>
+      </div>
+      
+      <div id="wiki">
+        <iframe
+          src="https://en.wikipedia.org/wiki/Pok%C3%A9mon"
+          frameborder="0"
+          height="500px"
+          width="500px"
+          title="Pokemon wikipedia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen;"
+        >
+        </iframe>
+      </div>
+
+    
+    </div>
+    
 
     <form action="a.php" style="margin:100px;">
         <label for="fname">Name:</label>
@@ -77,3 +104,4 @@
     </form>
   </body>
 </html>
+
