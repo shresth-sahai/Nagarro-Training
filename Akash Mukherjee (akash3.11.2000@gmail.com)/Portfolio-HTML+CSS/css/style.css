@@ -22,7 +22,7 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-image: url("https://www.transparenttextures.com/patterns/arches.png");
 }
 
@@ -39,12 +39,12 @@ body {
 
 .nav-brand {
   font-size: 1.5rem;
-  font-family: 'Cookie', cursive;
+  font-family: "Cookie", cursive;
   font-weight: 700;
 }
 
-.nav-brand span{
-    font-size: 2rem;
+.nav-brand span {
+  font-size: 2rem;
 }
 
 #nav-check {
@@ -154,12 +154,27 @@ body {
 }
 
 .avatar {
-  background-color: var(--accent-color);
+  background-color: var(--bg-color);
   border-radius: 50%;
   overflow: hidden;
   flex: 40%;
   max-width: 400px;
   max-height: 400px;
+  background: linear-gradient(-45deg, #5252ee, #00d9aa, #dd54ff);
+  background-size: 600%;
+  animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .avatar img {
