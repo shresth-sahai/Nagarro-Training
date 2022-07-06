@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(0,0,0,0.8);
+    display: inline-flex;
+    
+}
+.navbar{
+    height: 620px;
+    width: 200px;
+    background: rgba(0,0,0,0.8);
+}
+.navbar ul img{
+    margin-left: 40px;
+    margin-top: 70px;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 50%;
+}
+.navbar ul li{
+    width: 100px;
+
+    border: 1px solid black;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 50px;
+    list-style-type: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border: 1px solid black;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    padding: auto;
+
+}
+.navbar ul li:hover{
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 20px greenyellow;
+    border: 1px solid greenyellow;
+}
+.content{
+    position: relative;
+}
+.content img{
+    height: 620px;
+    width: 1160px;
+}
+.container{
+    position: absolute;
+    top: 220px;
+    left: 200px;
+}
+.container h1{
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+}
+.container h3{
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+}
+.container h5{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+fieldset{
+    box-shadow: 0px 0px 10px orange;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid orange;
+
+}
+legend{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+}
+span{
+    color: orange;
+}
+.links{
+    position: absolute;
+    top: 420px;
+    left: 390px;
+}
+.links ul{
+    display: flex;
+    list-style-type: none;
+}
+.links ul li{
+    margin: 10px;
+}
+.links ul li a img{
+    height: 20px;
+    
+}
+select{
+    height: 30px;
+    text-align: center;
+    margin-left:45px;
+    background-color: black;
+    font-family:cursive;
+    border:none;
+    color: white;
+    transition: 0.4s ease;
+    border-radius: 40px;
+}
+select:hover{
+    box-shadow: 0px 0px 20px greenyellow;
+    border: 1px solid greenyellow;
+    color: white;
+}
