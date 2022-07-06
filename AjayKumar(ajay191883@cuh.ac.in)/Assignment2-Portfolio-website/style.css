@@ -1,0 +1,119 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+  display: flex;
+  padding: 20px 100px;
+  align-items: center;
+  background-color: black;
+}
+
+.navigation .logo-side {
+  width: 29%;
+}
+
+.navigation .link-side {
+  width: 70%;
+}
+
+.navigation .logo-side img {
+  height: 60px;
+}
+
+.navigation .link-side .nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation .link-side .nav .nav-link {
+  list-style: none;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.navigation .link-side .nav .nav-link.active {
+  color: royalblue;
+  padding-bottom: 10px;
+  border-bottom: 5px solid royalblue;
+}
+
+.container {
+  padding: 70px 60px;
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+}
+
+.intro {
+  line-height: 80px;
+}
+
+.intro h1 {
+  font-size: 56px;
+}
+
+.intro h3 {
+  font-size: 32px;
+}
+
+.btn {
+  background-color: #0a007c;
+  color: aliceblue;
+  font-weight: 600;
+  padding: 10px 20px;
+  display: flex;
+  width: 150px;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 20px;
+  align-items: center;
+  font-size: 16px;
+  box-shadow: 0px 5px 15px royalblue;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.btn img {
+  height: 16px;
+}
+
+.container .social {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+}
+
+.container .social a {
+  list-style: none;
+  padding: 10px 12px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.container .social a img {
+  height: 18px;
+  width: 18px;
+}
+
+.img-container {
+  background-color: yellow;
+  border-radius: 50%;
+  padding: 50px 10px 0 10px;
+}
+.img-container img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+footer h3 {
+  text-align: center;
+}
