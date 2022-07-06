@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+<body> 
+    <header style="background-color:black;">
+        <h3 class="temp">Rishi</h3>
+        <nav style="color: aqua;">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Education</li>
+                <li>Experience</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="next">
+        <div class="two">
+            <div class="f2"><span class="f3"><p>Hi There,</p></span><span class="f4"><p>I'm Rishivendra <span>Gupta</span></p></span></div>
+            <div class="f5"><p>I Am Into <span>Developer!</span></p></div>
+            <div class="f6"><input type="text" value="About Me"><i class='fa fa-arrow-circle-down'></i></div>
+            <div class="f7">
+                <span class="dot3"><i class="fa fa-linkedin-square one" style="font-size:23px;color:lightblue"></i></span>
+                <span class="dot2"><i class="fa fa-twitter " style="font-size:23px;color:lightblue;padding-left: 1rem;"></i></span>
+                <span class="dot4"><i class="fa fa-telegram " style="font-size:23px;color:lightblue;padding-left: 1rem;"></i></span>
+                <span class="dot2"><i class="fa fa-instagram " style="font-size:23px;color:lightblue;padding-left: 1rem;"></i></span>
+                <span class="dot2"><i class="fa fa-pinterest " style="font-size:23px;color:lightblue;padding-left: 1rem;"></i></span>
+                <span class="dot2"><i class="fa fa-skype" style="font-size:23px;color:lightblue;padding-left: 1rem;"></i></span>
+            </div>
+        </div>    
+        <div>
+            <span class="dot"><img src="./profile-photo.jpg"></span>
+        </div>
+    </div>
+  
+</body>
+
+</html>
+<!--********************************************************************* CSS- Styling ***************************************************************************-->
+body{
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+header{
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    background-color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+ul li{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.temp{
+    margin-top: 22px;
+    margin-left: 100px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: aqua;
+}
+li:hover{
+    cursor: pointer;
+    color:blue;
+    text-decoration: underline;
+}
+li{
+    padding-left: 10px;
+    margin-right: 10px;
+}
+nav{
+    width: 30rem;
+    padding-left: 50px;
+    margin-left: 300px;
+    margin-top: 22px;
+}
+.f3 p{
+    margin-left: 8rem;
+    margin-top: 7rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.f4 p{
+    margin-left: 8rem;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 0.7rem;
+}
+.f4 span{
+    font-size: 3rem;
+    font-weight: 700;
+    color: red;
+}
+.f5 p{
+    margin-left: 8rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.f5 span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: brown;
+}
+.f6{
+    margin-left:8rem;
+    margin-top: 1rem;
+}
+.f6 input{
+    height: 3rem;
+    width: 10rem;
+    border: 2px solid;
+    border-radius: 2rem;
+    padding-left: 3rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: white;
+    padding-left: -5rem;
+    background-color: darkblue;
+}
+.f6 i{
+    margin-left: -4.3rem;
+    font-size: 1.2rem;
+    color:white;
+}
+.f7{
+    margin-left: 7rem;
+    margin-top: -1.8rem;
+}
+.next{
+    display: flex;
+}
+.dot{
+    margin-top: 6rem;
+    margin-left: 15rem;
+    height: 300px;
+    width: 300px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot img{
+    margin-top: 3.3rem;
+    margin-left: 1.7rem;
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot1{
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    height: 60px;
+    width: 60px;
+    background-color:darkblue;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot1 img{
+    margin-top: 1.3rem;
+    margin-left: 0.7rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2{
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    height: 40px;
+    width: 40px;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2 i{
+    margin-top: 0.5rem;
+    margin-left: -0.4rem;
+}
+.dot3{
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    height: 40px;
+    width: 40px;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot3 i{
+    margin-top: 0.5rem;
+    margin-left: 0.6rem;
+}
+.dot4{
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    height: 40px;
+    width: 40px;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot4 i{
+    margin-top: 0.5rem;
+    margin-left: -0.5rem;
+}
