@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #ffffff;
+  --lightGrey: #c5bcbc;
+  --crismon: #ff2a66;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(4, 3, 24, 1) 8%,
+    rgba(15, 19, 102, 1) 78%,
+    #202781 94%
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+/* Contend stylings starts */
+.about {
+  display: flex;
+  margin: 5rem 3rem 0 8rem;
+}
+
+/* Text part styling */
+.text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 3rem;
+  gap: 3rem;
+}
+h1 {
+  font-size: 5rem;
+  color: var(--white);
+}
+span {
+  font-size: 7rem;
+  color: var(--crismon);
+}
+p {
+  color: var(--lightGrey);
+  text-align: justify;
+}
+
+/* image part Styling */
+.image {
+  margin-top: 2rem;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.image img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--white);
+}
+
+/* social links  */
+.links {
+  margin: 0 30rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  width: 50rem;
+  border-radius: 20px;
+  background: #fdfdff;
+  box-shadow: 5px 5px 10px #181d61, -5px -5px 10px #2831a1;
+}
+.links img {
+  height: 50px;
+  width: 50px;
+}
