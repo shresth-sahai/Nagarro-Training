@@ -1,0 +1,105 @@
+body {
+    background: url("https://wallpaperaccess.com/full/5651978.png");
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+}
+
+header{
+background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9DauUuCiyVQtvM0YFSRjhunx20p6TLa--ng&usqp=CAU");
+}
+
+header hr {
+    border-bottom: solid;
+}
+
+nav {
+    display: flex;
+    width: 96%;
+    margin: 25px 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_logo {
+    text-decoration: double;
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: georgian;
+    margin: 20px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+
+    text-decoration: dashed;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkmagenta;
+    background: lightblue;
+    font-weight: bold;
+    padding: 5px 5px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+container {
+    box-sizing: border-box;
+}
+
+.home {
+    margin-left: 25%;
+    margin-top: 10%;
+
+}
+
+.home h1 {
+    text-decoration: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.home h1 span {
+    color: crimson;
+}
+
+.home h2 span {
+    color: darkblue;
+}
+
+.connect {
+    margin-left: 25%;
+}
+
+.connect p a:hover {
+    inline-size: 50px 50px;
+    background: rgb(0, 0, 0);
+    display: inline-block;
+    border-radius: 15%;
+
+}
+
+.pic{
+    margin-top: -16%;
+    margin-left: 60%
+}
+
+.pic img{
+    border: 5px solid #070707;
+    height: 800;
+    width: 800;
+    border-radius: 75%;
+}
