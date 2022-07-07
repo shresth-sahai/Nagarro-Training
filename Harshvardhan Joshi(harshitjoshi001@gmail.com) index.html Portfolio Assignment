@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio Assignment</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        section{
+            padding: 100px 10%;
+        }
+        .home{
+            min-height: 100vh;
+            height: 100%;
+            width: 100%;
+            background: #de6161; 
+             background: linear-gradient(to right, #2657eb, #de6161); 
+            position: relative;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            grid-gap: 4rem;
+        }
+        .home-text h1{
+            margin: 10px 0px 25px;
+            font-size: 5rem;
+            color: #fff;
+            line-height: 1;
+            font-weight: 500;
+        }
+        .home-text h5{
+            margin-bottom: 23px;
+            color: #fff;
+            font-size: 19px;
+            font-weight: 500;
+        }
+        .home-text h3{
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .home-text p {
+            font-size: 1.1rem;
+            color: #fff;
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+        .home-img img{
+            max-width: 100%;
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+        }
+        .social a{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            color: #fff;
+            background: #333;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 17px;
+            margin-right: 22px;
+            margin-bottom: 30px;
+        }
+        .btn{
+            display: inline-block;
+            color: #333;
+            background-color: #fff;
+            font-size: 1.1rem;
+            padding: 10px 40px;
+            font-weight: 500;
+            line-height: 24px;
+            border-radius: 30px;
+        }
+            @media only screen and (max-width: 600px) {
+  .home {
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+  }
+        }
+    </style>
+</head>
+<body>
+    <section class="home" id="home">
+        <div class="home-text">
+            <h3>Hello I'm</h3>
+            <h1>John Doe</h1>
+            <h5>A Web Developer</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quos.</p>
+            <div class="social">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+                <a href="#"><i class="bx bxl-behance"></i></a>
+            </div>
+            <a class="btn" href="#">About me</a>
+        </div>
+        <div class="home-img">
+            <img src="https://images.unsplash.com/photo-1528900403525-dc523d4f18d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8eW91bmclMjBtYW58ZW58MHx8MHx8&w=1000&q=80" alt="">
+        </div>
+    </section>
+</body>
+</html>
