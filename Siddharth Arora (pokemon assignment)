@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY HTML PROJECT</title>
+</head>
+<body>
+     <h1 style="text-align:center;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS790Km98ApqsU9S3XVH8eKOJzjEo2Zqpo8kw&usqp=CAU"></h1>
+     <hr>
+     <p><strong>Pokémon</strong> (<em> an abbreviation for Pocket Monsters in Japan </em>) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996, and is centered on fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon Trainers, catch and train Pokémon to battle other Pokémon for sport. All media works within the franchise are set in the Pokémon universe. The English slogan for the franchise is "Gotta Catch ‘Em All!". There are currently 913 Pokémon species.</p>
+     <h2>First Gen Pokemon</h2>
+     <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Image</th>
+            <th>Type</th>
+            <th>Evolves to</th>
+        </tr>
+        
+        <tr>
+            <td>Bulbasuar</td>
+            <td><img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"></td>
+            <td>Grass</td>
+            <td>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6a-0w9OlINSbQTO_ENz8LluxpyYQyNDJCy371Gca_NhHpY_lhkDrB9u43lib1f1OK890&usqp=CAU">
+            </td>
+        </tr>
+        <tr>
+            <td>Charmender</td>
+            <td><img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"></td>
+            <td>Fire</td>
+            <td><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png"></td>
+        </tr>
+        <tr>
+            <td>Squirtle</td>
+            <td><img src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png"></td>
+            <td>Water</td>
+            <td><img src="https://archives.bulbagarden.net/media/upload/thumb/0/02/009Blastoise.png/250px-009Blastoise.png"></td>
+        </tr>   
+     </table>
+     <br>
+     <hr>
+     <h2 style="text-align:center;">ASH KETCHUM</h2>
+     <center><img src="http://pa1.narvii.com/6569/e587b1f45340c816428a89e0a102ee6764b93d6c_00.gif"></center>
+        <P>Ash Ketchum is the main protagonist of Pokémon the Series. He is a 10-year-old Pokémon Trainer from Pallet Town in the Kanto region who has always dreamed of becoming the world's greatest Pokémon Master. The first human character to be introduced in the series, he is the winner of the Orange League and Kanto Battle Frontier and also the Alola region's Pokémon Champion, receiving the title after winning its first Pokémon League Conference. He is also one of the 8 best trainers in the Pokémon World after defeating Raihan and reached Master Class in the World Coronation Series. </P>
+        
+        <BR>
+        <br>
+        <HR>
+     <h2 style="text-align:center;">
+        Brock
+     </h2>
+     <center> <img src="https://i.gifer.com/PQHo.gif"></center>
+        <p2>Brock is originally the Gym Leader of Pewter City Gym but he decided to follow his dream to become the greatest Pokémon Breeder. After his defeat against Ash Ketchum, he quickly gave up his title. He accompanied Ash on his journey for quite some time, all while trying to live up to his goal. He currently wishes to be a great Pokémon Doctor. He has travelled with Ash from Kanto to Sinnoh. He is one of the main characters in the series.</p2>
+        <br>
+        <br>
+        
+        <br>
+        <hr>
+        <br>
+        <h2 style="text-align:center;">Watch Pokemon Short Videos</h2>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/EWnjbhHXbSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="500" height="315" src="https://www.youtube.com/embed/xM24hiwTAe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="500" height="315" src="https://www.youtube.com/embed/AG4GSlMhGHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <hr>
+        <br>
+        <h2>Which is your Favourite pokemon</h2>
+    
+            <input type="checkbox" id="pikachu" name="pikachu" value="thunder">
+            <label for="pikachu"> Pikachu</label><br>
+            <input type="checkbox" id="squirtle" name="squirtle" value="water">
+            <label for="squirtle"> Squirtle</label><br>
+            <input type="checkbox" id="bulbasaur" name="bulbasaur" value="grass">
+            <label for="bulbasuar"> Bulbasaur</label><br>
+            <input type="checkbox" id="charmender" name="charmender" value="fire">
+            <label for="charmender"> Charmender</label><br>
+        <br>
+        <button type="button">Submit</button>
+        <br>
+        <br>
+        <h2> Registration Form </h2>
+     <input type="text" placeholder=" Your Pokemon Name"/>
+        <br>
+        <br>
+    <input type="password" placeholder="Password" />
+    <br>
+        <br>
+        <button type="button">Submit</button>
+    <h1 style="text-align:center;">Thank You for visiting</h1> 
+
+</body>
+</html>

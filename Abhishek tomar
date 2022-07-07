@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Website</title>
+  </head>
+  <body>
+    <h1>Pokemon Theory</h1>
+    <img
+      src="https://i.pinimg.com/originals/28/ec/d6/28ecd67d058708db6a65de3e88f2c9f6.png"
+      height="300px"
+    />
+    <p>
+      Ash Ketchum, known as Satoshi in Japan, is a fictional character in the
+      Pokémon franchise owned by Nintendo. He is the protagonist of the Pokémon
+      anime and certain manga series as well as on various merchandise related
+      to the franchise. In Japanese, the character is voiced by Rika Matsumoto,
+      and Hana Takeda.
+    </p>
+    <h1>Garry</h1>
+    <img
+      src="https://archives.bulbagarden.net/media/upload/thumb/4/42/Gary_Oak_OS.png/220px-Gary_Oak_OS.png"
+    />
+    <p>
+      Gary Oak is Professor Oak's grandson and Ash Ketchum's rival in the first
+      few seasons. His starter Pokémon was a Squirtle that later evolved into a
+      Blastoise.
+    </p>
+    <iframe
+    src="https://www.youtube.com/embed/Vqamcl6pNGU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      width="460px"
+      height="345px"
+    allowfullscreen
+    ></iframe>
+    <form>
+      User ID : <input type="text" name="user_id" />
+      <br />
+      Password: <input type="password" name="password" /><br />
+      Description : <br />
+      <textarea rows="5" cols="50" name="description">
+           Enter description here...
+        </textarea
+      >
+    </form>
+  </body>
+</html>
