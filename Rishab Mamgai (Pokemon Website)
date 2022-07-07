@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pokemon Website </title>
+</head>
+
+<body>
+    <div>
+        <h1 style="text-align: center"> Pokemon Website </h1>
+
+        <p>
+            Pokémon(an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by
+            The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by
+            Satoshi Tajiri in 1996, and is centered on fictional creatures called "Pokémon". In Pokémon, humans, known as
+            Pokémon Trainers, catch and train Pokémon to battle other Pokémon for sport. All media works within the
+            franchise are set in the Pokémon universe. The English slogan for the franchise is "Gotta Catch ‘Em All!".
+            There are currently 913 Pokémon species.
+        </p>
+
+        <center>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAc6H3Zf67FHhO1DCJL91uIjO4bdEdWSi-TA&usqp=CAU">
+        </center>
+    </div>
+
+    <div>
+        <h1 style="text-align: center"> Ash </h1>
+
+        <p>
+            Ash Ketchum, known as Satoshi (サトシ) in Japan, is a fictional character in the Pokémon franchise owned by Nintendo. He is
+            the protagonist of the Pokémon anime and certain manga series as well as on various merchandise related to the
+            franchise. In Japanese, the character is voiced by Rika Matsumoto, and Hana Takeda. In the English dub, he was voiced by
+            Veronica Taylor in the first eight seasons and has been voiced by Sarah Natochenny since season 9. In the Hindi dub,
+            Prasad Barve dub Season 1–14 for Cartoon Network, Season 10 for Disney and Nachiket Dighe for Season 1–9, 11–present for
+            Disney. In the Korean dub, he was voiced by Choi Deok-Hui in the first five seasons and first two films, An Hyeon-Seo in
+            Pokémon films three through five, and has been voiced by Lee Seon-ho since season six and the sixth Pokémon film.
+        </p>
+
+        <center>
+            <video controls>
+                <source
+                    src="https://r3---sn-npoldn7e.googlevideo.com/videoplayback?expire=1657060382&ei=vmfEYtaCMdahxN8P2-WIsAo&ip=163.172.44.23&id=o-AL2b-WCO3xVb-zjICkfb30PzWfGJmRLB_lcjAKfRvla_&itag=18&source=youtube&requiressl=yes&spc=lT-Khvdi8V7_oddGn9HacwEzV7lGAxc&vprv=1&mime=video%2Fmp4&ns=L4je59cUQyU7DjrD2NUXQFgH&gir=yes&clen=1946843&ratebypass=yes&dur=30.093&lmt=1550257709236971&fexp=24001373,24007246&c=WEB&txp=5531432&n=N1wI8n_dMCMKmg&sparams=expire,ei,ip,id,itag,source,requiressl,spc,vprv,mime,ns,gir,clen,ratebypass,dur,lmt&sig=AOq0QJ8wRQIhALTSKZqayz4s4PPCHxCyf-8bhPJTK5sxb0WrImJfsQ5sAiBXUa3OACy7dmtBC-4pmfKvtqYZuP14ZX_2Pm5HhNZD8Q%3D%3D&cm2rm=sn-ci5gup-qxaee7e,sn-qxae67l&req_id=54bda4c218faa3ee&ipbypass=yes&redirect_counter=2&cms_redirect=yes&cmsv=e&mh=hv&mip=223.233.64.22&mm=34&mn=sn-npoldn7e&ms=ltu&mt=1657038764&mv=m&mvi=3&pl=23&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAOF6jp8x4lun3IZ_3ItXM31_ukh6C3rulFgwYu-Is75lAiEAjmv9EuKbBWN6LhdjrDq1Bt5Z5KM-K8JvOkZBy4ejtG0%3D"
+                    type="video/mp4">
+            </video>
+        </center>
+    </div>
+
+    <div>
+        <h1 style="text-align: center"> Gary </h1>
+
+        <p>
+            Gary, the grandson of renowned Pokémon Researcher, Professor Oak, has had a life long rivaly with Ash Ketchum. Starting
+            based on a fishing scuffle where they both claimed ownership of a Pokéball used for fishing, Gary has always had it in
+            for Ash. Gary started off as an extremely arrogant kid who somehow managed to amass a group of Cheerleaders, cheering
+            only for Gary. After he lost in the Pokémon League, Gary ditched the cheerleaders and after some soul searching, started
+            to become less arrogant and more of a compotent Pokémon Trainer. Finally, after his defeat against Ash, Gary, with
+            humility, mended the fences with Ash finally and decided to stop being a Pokémon Trainer and instead to follow in his
+            grandfather's footsteps and become a Pokémon Researcher.
+        </p>
+
+        <center>
+            <iframe src="https://en.wikipedia.org/wiki/Pok%C3%A9mon" frameborder="2" height="250" width="1200"></iframe>
+        </center>
+    </div>
+
+    <div style="text-align: center">
+        <h3> Registration Form </h3>
+
+        <form action="">
+            <input type="text" placeholder="Username"/>
+            <br> <br>
+            <input type="password" placeholder="Password"/>
+            <br> <br>
+            <textarea name="text" cols="30" rows="10"></textarea>
+            <br> <br>
+            <button type="submit"> Submit </button>
+        </form>
+    </div>
+</body>
+
+</html>
