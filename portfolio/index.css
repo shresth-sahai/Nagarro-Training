@@ -1,0 +1,49 @@
+
+h2 {
+    color: rgb(72, 72, 72);
+}
+.portfolio {
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 80%;
+    height: 22rem;
+    background-color: rgb(241, 238, 238);
+}
+.about {
+    width: 40rem;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px;
+}
+a{
+    transform: scale(1.7);
+    color: rgb(72, 72, 72);
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    width: 13rem;
+    text-align: center;
+    border-radius: 8px;
+    background-color: grey;
+    color: white;
+}
+.pic {
+    text-align: center;
+}
+img {
+    height: 11rem;
+    width: 12rem;
+}
