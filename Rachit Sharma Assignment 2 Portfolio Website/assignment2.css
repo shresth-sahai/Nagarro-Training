@@ -36,7 +36,7 @@ body {
 }
 
 .image {
-  width: 28%;
+  width: 20%;
 }
 
 .userImage {
@@ -54,4 +54,39 @@ body {
   margin: 0px 15px;
   background: white;
   border-radius: 50%;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  font-size: larger;
+  background: #415a77;
+  color: white;
+}
+
+.front div:hover,
+.back div:hover {
+  color: #111416;
+}
+
+.front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  font-size: x-large;
+}
+
+#logo {
+  border-radius: 50%;
+}
+
+.back {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
 }
