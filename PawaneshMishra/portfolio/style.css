@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+.Hero{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #eff4fd;
+    position: relative;
+}
+
+.details{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.details h1{
+    font-size: 40px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #AC5503;
+}
+
+.details p{
+    color: #212121;
+    line-height: 22px;
+    font-size: 17px;
+}
+
+.details a{
+    background: #212121;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.details a:hover{
+    color: orange;
+}
+
+.images{
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 8%;
+    right: 100px;
+}
+
+.images img{
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-10%);
+    transition: bottom 1s, left 1s;
+    
+}
+
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 300px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #212121;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #52AAFC;
+}
+
+.images:hover .shape{
+    bottom: 70px;
+}
+
+.images:hover .photo{
+    left: 45%;
+}
+
+.social{
+    margin-left: 8%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.social a{
+    font-size: 15px;
+    color: #fff;
+    margin-right: 20px;
+    margin-left: 30px;
+    background: #212121;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.social a:hover{
+    color: orange;
+}
