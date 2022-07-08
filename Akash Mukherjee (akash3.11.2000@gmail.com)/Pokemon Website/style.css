@@ -7,6 +7,10 @@ p {
   font-family: serif;
 }
 
+video{
+  max-width: 600px;
+}
+
 .intro {
   text-align: justify;
   max-width: 800px;
@@ -16,22 +20,19 @@ td:nth-child(1) {
   min-width: 60px;
 }
 
-.btn{
-    background-color: transparent;
-    border: 3px solid #2774ba;
-    border-radius: 10px;
-    white-space: nowrap;
-    padding: 2em 1em;
-    color: #2774ba;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
+td:nth-child(2) p{
+  max-height: 30vh;
+  overflow-y: auto;
 }
 
-.btn:hover{
-    background-color: #2774ba;
-    color: #fff;
+td:nth-child(3){
+  min-width: 50px;
 }
+
+.btn{
+    border-radius: 5px;
+}
+
 
 .yt-videos {
   text-align: center;
