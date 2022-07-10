@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Pokemon
+        </title>
+        
+    </head>
+    
+    <body>
+        <div><img width="340" height="80"src=" https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/375px-International_Pok%C3%A9mon_logo.svg.png">
+        </div>
+        <p><b>Pokémon</b>(an abbreviation for Pocket Monsters[b] in Japan) is a Japanese media franchise managed by <a href="https://www.pokemon.com/us/" target=" ">The Pokémon Company</a>,
+         a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996,[4] and is centered on
+          fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon Trainers, catch and train Pokémon to battle other Pokémon for sport. All media works within the franchise are set in the Pokémon universe. The English slogan for the franchise is "Gotta Catch ‘Em All!".[5][6] There are currently 913 Pokémon species.[7]
+        </p>
+      
+        <br> 
+        <br>
+        <div>
+            <h1><pre>ASH KETCHUM</pre></h1>
+            <p><b>Ash Ketchum</b> is the main character in the Pokémon Anime series. His last name Ketchum is a pun of the Original Motto of the series "Gotta Catch 'em All!" His first name Ash, may come from the series creator Satoshi. Ash's main Pokémon is the starter he obtained from Professor Oak in the first episode of the anime, Pikachu, who has appeared with Ash in every single episode and movie to date, excluding the special episodes in which Ash doesn't appear.</p>
+            <img class="center" src="https://cdn.staticneo.com/w/pokemon/0/0e/Ash_-_XY_Series.png">
+            <iframe width="560" height="400" src="https://www.youtube-nocookie.com/embed/TzM9AYz5uho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <br>
+        <br>
+        <h1><pre>GARY OAK</pre></h1>
+        <p>Gary Oak is a character appearing in Pokémon the Series. He is the grandson of Professor Oak and the rival of Ash Ketchum in the first few seasons. His Starter Pokémon was a Squirtle, later evolving into a Blastoise.</p>
+        <img src="https://static.wikia.nocookie.net/pokemon/images/f/f6/Gary_Oak_anime_Journeys.png/revision/latest/scale-to-width-down/267?cb=20211001055536">
+        <iframe width="560" height="560" src="https://www.youtube.com/embed/JZXZNDeUGOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <iframe width="1500" height="500" src="https://en.wikipedia.org/wiki/Pok%C3%A9mon"></iframe>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form action="sucessful.html" target="">
+            <input type="text" placeholder="username">
+            
+            <br>
+            <br>
+            <input type="password" placeholder="password">
+            <br>
+            <h2>What's your favourite pokemon?</h2>
+            <button type="radio" value="pikachu">Pikachu</button>
+            <br>
+            <button type="radio">Charizard</button>
+            <br>
+            <button type="radio">Ditto</button>
+            <h2>Explain Why!!</h2>
+            <textarea name="why" cols="100" rows="25"></textarea>
+            <br>
+            <br>
+            <br>
+            <button type="submit" value="submit">Login</button>
+        </form>
+
+    </body>
+</html>
