@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style media="screen" >
+    *{
+      margin:0;padding:0;box-sizing:border-box;
+      letter-spacing:1px;
+      font-family:verdana;
+      text-transform:capitalize;
+    }
+    body{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(209,129,101,1) 35%, rgba(0,212,255,1) 100%); 
+    }
+    .container{
+      height:450px;
+      width:320px;
+      background:#fff;
+      border-radius:5px;
+      box-shadow: 0 5 px 10px rgba(0,0,0,0.5);
+      padding:10px;
+      overflow-y:auto;
+    }
+    #input{
+      height:50px;
+      width:100%;
+      outline:none;
+      border:none;
+      border-radius:5px;
+      background:#666;
+      color:#fff;
+      padding:0 10px;
+      margin:15px 0;
+    }
+    #input::placeholder{
+      color:#bbb;
+    }
+    ul{
+      background:#eee;
+      color:#333;
+      height:40px;
+      border-radius:50px;
+      margin:15px 0;
+      padding:10px;
+    }
+    ul .fa-check,.fa-trash
+    {
+      position:absolute;
+      cursor:pointer;
+    }
+    ul .fa-check{
+      right:40px;
+      color:green;
+      
+    }
+      ul .fa-trash{
+      right:40px;
+      color:red;
+      
+    }
+  </style>
+  <script src="jquery.js" charset="UTF-8" > </script>
+  <title>To do list</title>
+</head>
+<body>
+  <div class="container">
+    <input type="text" id="input" placeholder="press enter" >
+    <ul>
+      
+    </ul>
+  </div>
+  <script type="text/javascript">
+    $document.ready(function()
+    {
+    
+    $('#input').change(function(){
+       var input =$(this).val();
+    $('ul').append('<li>' + input + '<i class="fas fa-check fa-trash "> </li>');
+    $(this).val('');
+     });
+       $('ul').on('click' , '.fa-trash',function()
+                 {
+         $(this).parent('li').fadeOut(200);
+       });
+    });
+    
+  </script>
+</body>
+</html>
