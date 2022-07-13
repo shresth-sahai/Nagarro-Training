@@ -1,0 +1,7 @@
+fs.readFile('./index.html', (err, fileData => {
+    if (err) console.error("Failed to load");
+    else {
+        res.write(fileData);
+        res.end();
+    }
+}));
