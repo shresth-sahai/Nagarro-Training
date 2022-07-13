@@ -1,0 +1,12 @@
+[11:23 am] Shreshth Sahai
+npm install superheroes
+
+[11:24 am] Shreshth Sahai
+const superheroes = require('superheroes');
+
+[11:24 am] Shreshth Sahai
+superheroes.all;
+
+[11:24 am] Shreshth Sahai
+console.log(superheroes.random());
+
