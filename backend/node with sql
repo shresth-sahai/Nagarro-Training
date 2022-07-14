@@ -1,0 +1,23 @@
+const { timeStamp } = require('console');
+const { connect } = require('http2');
+var mysql = require('mysql');
+var con = mysql.createConnection({
+    host: "localhost",
+    user: "shresth",
+    password: '1223'
+});
+let sql=Select * from time;
+con.connect(functon(err){
+    if(err) {
+        throw err;
+    } 
+    else{
+        console.log("Connected !")
+    }
+    connect.query(sql, function (err, res)
+    {
+        if (err) throw err;
+        console.log(res);
+
+    })
+});
