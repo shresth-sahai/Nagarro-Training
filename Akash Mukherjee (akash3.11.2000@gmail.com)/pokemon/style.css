@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  background: url("https://img.freepik.com/free-vector/white-elegant-texture-background-style_23-2148432200.jpg?w=2000");
+}
+
+p {
+  font-family: serif;
+}
+
+video{
+  max-width: 600px;
+}
+
+.intro {
+  text-align: justify;
+  max-width: 800px;
+}
+
+td:nth-child(1) {
+  min-width: 60px;
+}
+
+td:nth-child(2) p{
+  max-height: 30vh;
+  overflow-y: auto;
+}
+
+td:nth-child(3){
+  min-width: 50px;
+}
+
+.btn{
+    border-radius: 5px;
+}
+
+
+.yt-videos {
+  text-align: center;
+}
+
+.yt-videos h1 {
+  text-align: left;
+}
+
+footer{
+    margin: 4em auto 2em;
+    text-align: center;
+}
+
+footer span{
+    font-size:0.75rem;
+    font-family: monospace;
+    color:#666;
+}

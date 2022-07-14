@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  font-family: verdana;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  margin: 15px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #090b38 0%, #7243af 30%, #22c0c3 50%, #008d6c 70%,#0a3307 90%);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+.container {
+  height: 80vh;
+  max-width: 370px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  box-shadow: 0 5 px 10px rgba(0, 0, 0, 0.5);
+  padding: 1em 2em;
+}
+
+.input{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#input {
+  height: 40px;
+  min-width: 85%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #666;
+  color: #fff;
+  padding: 0 10px;
+  margin: 1em 0;
+}
+
+#add-btn{
+  height: 40px;
+  width: 40px;
+  border: 0;
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #fff;
+}
+
+#input::placeholder {
+  color: #bbb;
+}
+ul {
+  background: #eee;
+  color: #333;
+  height: 80%;
+  border-radius: 7px;
+  margin: 15px 0;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+ul .fa-check,
+.fa-trash {
+  cursor: pointer;
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    white-space: normal;
+    word-break: break-all;
+    margin: 5px 0;
+}
+
+ul .fa-check {
+  right: 40px;
+  color: green;
+}
+ul .fa-trash {
+  right: 40px;
+  color: red;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
