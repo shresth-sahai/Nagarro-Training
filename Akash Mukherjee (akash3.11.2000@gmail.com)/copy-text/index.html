@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        @media (max-width:770px){
+            .btn-grp{
+                flex: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+    <title>Copy Text</title>
+</head>
+<body class="bg-secondary">
+    <div class="container d-flex flex-column align-items-center justify-content-center">
+        <h1 class="display-2 my-5 text-white w-100 text-center">Copy Text</h1>
+        <div class="w-100 d-flex flex-wrap justify-content-around align-items-center">
+            <div>
+                <textarea id="copy-input" class="border border-3 rounded border-dark" name="" id="" cols="30" rows="10" placeholder="Write Something Here"></textarea>
+            </div>
+            <div class="btn-grp w-25 my-4 d-flex flex-wrap justify-content-around">
+                <button type="button" id="copy-btn" class="btn btn-dark btn-lg mb-2"><i class="fa-solid fa-copy"></i> Copy</button>
+                <button type="button" id="paste-btn" class="btn btn-dark btn-lg mb-2"><i class="fa-solid fa-paste"></i> Paste</button>
+            </div>
+            <div class="">
+                <textarea id="paste-input" class="border border-3 rounded border-dark" name="" id="" cols="30" rows="10" placeholder="Try pasting here"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95f68113d2.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

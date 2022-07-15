@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <table cellspacing="10">
+      <thead>
+        <caption>
+          <hr size="5px" color="#ffcc01" width="30%" />
+          <a
+            href="https://www.pokemon.com/us/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              width="200px"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png"
+              alt=""
+            />
+          </a>
+          <hr size="5px" color="#ffcc01" width="30%" />
+          <p class="intro">
+            <em
+              ><strong>Pokémon</strong> (an abbreviation for Pocket Monsters in
+              Japan) is a Japanese media franchise managed by The Pokémon
+              Company, a company founded by Nintendo, Game Freak, and Creatures.
+              The franchise was created by Satoshi Tajiri in 1996, and is
+              centered on fictional creatures called "Pokémon". In Pokémon,
+              humans, known as Pokémon Trainers, catch and train Pokémon to
+              battle other Pokémon for sport. All media works within the
+              franchise are set in the Pokémon universe. The English slogan for
+              the franchise is <strong>"Gotta Catch ‘Em All!"</strong>. There
+              are currently 913 Pokémon species.</em
+            >
+          </p>
+          <video
+            controls
+            width="100%"
+            poster="https://www.pixelstalk.net/wp-content/uploads/images1/Blue-Pokemon-Wallpaper-Images.jpg"
+          >
+            <source src="./video/Pokemon-Theme.mp4" type="video/mp4" />
+
+            Sorry, your browser doesn't support embedded videos.
+          </video>
+        </caption>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <a
+              href="https://en.wikipedia.org/wiki/Ash_Ketchum"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                width="100%"
+                src="https://archives.bulbagarden.net/media/upload/thumb/c/cd/Ash_JN.png/225px-Ash_JN.png"
+                alt="Ash Ketchum img"
+              />
+            </a>
+          </td>
+          <td>
+            <h3><em>Ash Ketchum</em></h3>
+            <p>
+              Ash Ketchum, known as Satoshi (サトシ) in Japan, is a fictional
+              character in the Pokémon franchise owned by Nintendo. He is the
+              protagonist of the Pokémon anime and certain manga series as well
+              as on various merchandise related to the franchise. In Japanese,
+              the character is voiced by Rika Matsumoto, and Hana Takeda. In the
+              English dub, he was voiced by Veronica Taylor in the first eight
+              seasons and has been voiced by Sarah Natochenny since season 9. In
+              the Hindi dub, Prasad Barve dub Season 1–14 for Cartoon Network,
+              Season 10 for Disney and Nachiket Dighe for Season 1–9, 11–present
+              for Disney. In the Korean dub, he was voiced by Choi Deok-Hui in
+              the first five seasons and first two films, An Hyeon-Seo in
+              Pokémon films three through five, and has been voiced by Lee
+              Seon-ho since season six and the sixth Pokémon film.
+            </p>
+            <hr size="5px" color="#2774ba" />
+          </td>
+          <td>
+            <button value="ash" type="button" class="btn btn-ash" onclick="checkOutMore(event)">Check out more...</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <a
+              href="https://en.wikipedia.org/wiki/Brock_(Pok%C3%A9mon)"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                width="100%"
+                src="https://upload.wikimedia.org/wikipedia/en/7/71/DP-Brock.png"
+                alt="Brock img"
+              />
+            </a>
+          </td>
+          <td>
+            <h3><em>Brock</em></h3>
+            <p>
+              Brock, known as Takeshi (タケシ) in Japan, is a fictional
+              character in the Pokémon franchise owned by Nintendo. In the
+              Pokémon video games, he is the Gym Leader of Pewter City and
+              mainly uses Rock-type Pokémon. In the anime series, Ash comes
+              across a man that is later revealed to be Brock's father. He
+              explains that Brock wanted to become a Pokémon Master but due to
+              his father leaving, Brock had to take care of his many, many
+              siblings and could not leave. This is why he became a gym leader,
+              to stay close to his family. His father comes back and states that
+              he will take care of the family. Brock left his position as a Gym
+              Leader to travel alongside Ash Ketchum and became a revered
+              Pokémon breeder. He later cultivates his skill in medicine, and
+              goes to Pewter City in order to train and become a Pokémon doctor.
+              He has also appeared in several Pokémon manga series, including
+              Pokémon Adventures and the Ash & Pikachu manga.
+            </p>
+            <hr size="5px" color="#2774ba" />
+          </td>
+          <td>
+            <button value="brock" type="button" class="btn btn-brock" onclick="checkOutMore(event)">Check out more...</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <a
+              href="https://pokemon.fandom.com/wiki/Misty_(anime)"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                width="100%"
+                src="https://archives.bulbagarden.net/media/upload/thumb/f/fb/Misty_SM.png/150px-Misty_SM.png"
+                alt="Misty img"
+              />
+            </a>
+          </td>
+          <td>
+            <h3><em>Misty</em></h3>
+            <p>
+              Misty, (original Japanese name Kasumi (カスミ) - pronounced
+              kɑ-su-mi), is a fictional character in the Pokémon franchise owned
+              by Nintendo and created by Satoshi Tajiri. She has appeared as a
+              Gym Leader in the Pokémon video games Pokémon Red and Blue,
+              Pokémon Gold and Silver, and their respective remakes. She was a
+              protagonist in the ongoing anime for the first five seasons,
+              travelling alongside Ash Ketchum and Brock to become the world's
+              best trainer of Water-type Pokémon before departing home to
+              Cerulean City to run the family gym, but made recurring
+              appearances after. The character has also appeared in manga like
+              Pokémon Adventures. She specialises in Water Type Pokémon. Her
+              Japanese voice actress is Mayumi Iizuka, while her English voice
+              was supplied by Rachael Lillis and Michele Knotz, while her Korean
+              voice was supplied by Ji Mi-Ae, Lee Chi-Hyeon, Kim Hyeon-Ji and
+              Yeo Minjeong.
+            </p>
+            <hr size="5px" color="#2774ba" />
+          </td>
+          <td>
+            <button value="misty" type="button" class="btn btn-misty" onclick="checkOutMore(event)">Check out more...</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr size="5px" color="#ffcc01" />
+
+    <div class="yt-videos">
+      <h1>Popular videos</h1>
+      <iframe
+        width="24%"
+        height="200"
+        src="https://www.youtube.com/embed/Vqamcl6pNGU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        width="24%"
+        height="200"
+        src="https://www.youtube.com/embed/1roy4o4tqQM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        width="24%"
+        height="200"
+        src="https://www.youtube.com/embed/Q3WMddjkuwM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        width="24%"
+        height="200"
+        src="https://www.youtube.com/embed/yQCREgz4tQY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <hr size="5px" color="#ffcc01" />
+
+    <div>
+      <h1>Feedback</h1>
+      <form action="/">
+        <table>
+          <tr>
+            <td width="70"><label for="name">Name :</label></td>
+            <td>
+              <input
+                type="text"
+                name="name"
+                placeholder="enter your fullname"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email id :</label></td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                placeholder="enter your email id"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><label>Feedback</label></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <textarea
+                placeholder="Tell your feedback"
+                name="Feedback"
+                rows="7"
+                cols="42"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" name="" value="" />
+              <label>Terms & Contidions</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="submit" value="Submit" /></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <footer>
+      <span>&copy; Akash Mukherjee</span>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
