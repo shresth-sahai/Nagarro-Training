@@ -1,0 +1,16 @@
+<% -include ('header') %>
+<div class="text-center" id ="login">
+<div class="title pb-5">
+    <h2 class=""font-weight>
+Login system
+    </h2>
+<span>  Login in existing user</span>
+<%  if(local.logout){ %>
+    <div>
+        <% logout success %> 
+    </div>
+}  
+</div>
+
+
+</div> 
