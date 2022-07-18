@@ -1,0 +1,154 @@
+// npm init -->
+//-->env-->
+
+if (ProcessingInstruction.env.NODE_ENV !== 'production')
+{
+    requestAnimationFrame('dotenv').config()
+}
+const express = require('express');
+const app = express();
+const bcrypt = require('bcrypt');
+const passport = require('passport');
+const flash = require('express-flash');
+const session = require('expression-session');
+const methodOverride = require('method-override');
+
+const initializePassport = require(./passport-config)
+initializePassport(
+    passport,
+    email => URLSearchParams.find(user => user.email === email),
+    id=>URLSearchParams.find(user=>user.id===id)
+)
+
+const users = [];
+app.set('view-engine', 'ejs');
+
+app.use(passport.initialize())
+app.use(passport.session())
+
+app.get('/', checkAuthenticate, (req, res) => {
+    res.render('index.ejs', {
+        name:req.user.name
+    })
+    app.get('/', checkAuthenticate, (req, res) => {
+    res.render('index.ejs', {
+        name:req.user.name
+    })
+        app.get('/', checkAuthenticate, (req, res) => {
+    res.render('index.ejs', {
+        name:req.user.name
+    })
+        }
+            app.listen(3000)
+
+
+
+            // fill login register delete
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            // npm i 
+const bcrypt = require('bcrypt');
+
+const e = require('express');
+function initialize(passport, getUserByEmail, getUserById)
+{
+    const authenticateUse = async (email, password, done) =>
+    {
+        const user = getUserByEmail(email);
+        if (user == null)
+        {
+            return done(null, false, {message:'no user found'})
+        }
+        
+        try{
+            if (await bcrypt.compare(password, user.password)) {
+                return done(null, user);
+            }
+            else {
+                return done(null, false, { 'password incrrct'});
+            }
+        }
+       caches(e)
+        {
+            return done(e)
+        }
+    }
+     passport.use(new LocalStrategy({ usernameField: 'email' }, authenticateUser))
+     passport.serializeUser(user, done)=> done9null, user.id);
+     passport.deserializeUser(user, done)=> done9null, user.id);
+
+   // exports
+}
+
+
+
+
+
+
+
+
+
+<h1>HI <% name %> </h1>
+<form action="/logout" method="DELETE" method="post">
+    <button type=""submit>logout</button>
+</form>
+
+
+
+
+<h1>Register</h1>
+<form action="/register"  method="post">
+    <div>
+
+        <label for="name">Name</label>
+        <input type="text" id="name"  name ="name " required>   
+    </div>
+    <div>
+    
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+    
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+<button type="submit">Register</button>
+</form>
+<a href="/login">Login</a>
+
+
+
+
+
+
+
+
+<h1>Login</h1>
+<% if(messages.error){%> 
+<% messages.error %> }%>
+
+<form action="/login" method="post">
+
+<div>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+</div>
+<div>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+</div>
+<button type="submit">Login r</button>
+
+</form>
+<a href="/register">Register</a>
