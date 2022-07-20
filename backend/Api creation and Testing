@@ -1,0 +1,94 @@
+var express = require('express');
+var path = require('path');
+var mysql = require('mysql');
+const { rootCertificates } = require('tls');
+
+var conn = mysql.createConnection({
+    host: "localhost",
+    user=rootCertificates,
+    password="",
+    database="employee"
+});
+conn.connect(function (err) {
+    if (err) throw err;
+
+});
+var router = express.router();
+
+router.get('/', function (req, res, err)
+{
+    var getquery = "SELECT * from users";
+    conn.query(getquery, function (err, result)
+    {
+        if (err) throe err;
+        res.render('index', { title: 'Emoployee', records: result, success: '' });
+    })
+})
+
+router.get('/delete/:id', function (req, res, err)
+{
+    var getquery = "delete from users where id="";
+    conn.query(getquery, function (err, result)
+    {
+        if (err) throw err;
+        res.render('index', { title: 'Emoployee', records: result, success: '' });
+    })
+})
+
+router.post('/update/', function (req, res, next)
+{
+    var=req.body.id;
+    var name = req.body.uname;
+
+    var updatequery = "Select * from users where id ="1";
+    conn.query(updatequery, function (err, result)
+    {
+        if (err) throw err;
+        res.render('index', { title: 'Emoployee', records: result, success: '' });
+    })
+})
+
+
+
+
+
+index.ejs
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="/stylesheets/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 <% title %> ></h1>
+            <table class="table table-striped table-primary">
+                <thead>
+                    <tr>
+                        <th> <% name %> </th>
+                        <th>email</th>
+                        <th>Emp Type</th>
+                        <th>hour rate</th>
+                        <th>total hrs</th>
+                        <th>total</th>
+                    </tr>
+                </thead>
+
+            </table>
+            <form action="
+            "></form>
+        </div>
+    </div>
+    
+</body>
+</html>
