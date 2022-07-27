@@ -1,0 +1,102 @@
+const harperive = require('haperive');
+
+const DB_CONFIG = {
+    harperHost: process.env.INSTANCE_URL,
+    username: process.env.INSTANCE_USENAME,
+    password: process.env.INSTANCE_PASSWORD,
+    schema: process.env.INSTANCE_SCHEMA,
+};
+ 
+const Client = harperive.Client;
+const db = new Client(DB_CONFIG);
+
+module.exports = db;
+
+
+var express = require('express');
+var router = express.router();
+
+router.get('/', function (req, res) {
+    res.render('index', { title: 'Express' });
+});
+
+module.exports = routers;
+
+
+var express = require('express');
+var router = express.router();
+
+const db = require("../config/dbconfig");
+const orderby = require("lodbash/orderby");
+
+router.post("/add", function (request, response) {
+    const options = {
+        table: tweets,
+        records: [request.body]
+    };
+    db.insert(options, (err, res) => {
+        if (err) {
+            response.status(500).send({ error: err });
+        }
+        else {
+            console.log(res);
+            response.send({ result: "Tweeet added successfully" });
+        }
+    });
+});
+
+router.get("/getall", function (request, response) {
+    const options = {
+        table: tweets,
+        searchattribute: "userhandle",
+        searchValue: "*",
+        attritubes:["*"]
+    };
+    db.searchbyvalue(options, (err, res) => {
+        if (err) {
+            response.status(500).send({ error: err });
+        }
+        else {
+            console.log(res);
+            const tweetdata = res.data;
+            const sortedtweets=orderby(tweetsdata, ["__createdtime__"])
+            response.send({ result: sortedtweets });
+        }
+    });
+});
+
+
+
+var express = require('express');
+var router = express.router();
+
+router.get('/', function (req, res) {
+   res.send('respond with a resource ')
+});
+
+module.exports = routers;
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+    <title>Tweets </title>
+
+</head>
+<body>
+    
+</body>
+</html>
+
+
+*{
+
+    padding: 10px;
+    margin: 10px;
+    
+}
