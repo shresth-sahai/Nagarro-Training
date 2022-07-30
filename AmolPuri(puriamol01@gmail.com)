@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+  <title>Pokemon</title>
+   </head>
+   <body>
+    <h1>POKEMON</h1>
+    <p>Pokémon(an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996,and is centered on fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon Trainers, catch and train Pokémon to battle other Pokémon for sport. All media works within the franchise are set in the Pokémon universe. The English slogan for the franchise is "Gotta Catch ‘Em All!".There are currently 913 Pokémon species.</p>
+    <img src = "https://m.media-amazon.com/images/M/MV5BNDcwZDc2NTEtMzU0Ni00YTQyLWIyYTQtNTI3YjM0MzhmMmI4XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg" width = "470" height = "500"></img>
+   <iframe width = "500" height = "500" borderleft = "0" bordertop = "500" src = "https://pokemongolive.com/en/" allowfullscreen frameborder = "0"></iframe>
+   <video width="500" height="720" controls>
+    <source src="10 Second High Resolation 4k Video..mp4" type="video/mp4">
+    
+  </video>
+  <h4>Registeration Form For Pokemon</h4>
+    <form action="./index.php">
+<input type="text" placeholder="username"/>
+<br>
+<br>
+<input type="password" placeholder="password" />
+<br>
+<br>
+<h5>
+    Are you a Pokemon fan?
+</h5>
+<label for="1">
+    <input type="checkbox" value="Car" name ="class" id="1"/> Yes
+</label>
+<br>
+<br>
+<label for="2">
+    <input type="checkbox" value="BIKE" name="class" id="2" />No
+</label>
+
+
+
+<br>
+<br>
+
+
+<input type="submit" value="submit"/>
+    </form>
+
+</body>
+
+</html>
