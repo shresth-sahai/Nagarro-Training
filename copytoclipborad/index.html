@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- <link href="./dist/output.css" rel="stylesheet" /> -->
+  </head>
+  <body>
+    <h1>Copy to Clipboard project</h1>
+    <div class="one">
+      <textarea name="" id="text" cols="50" rows="15" class="area"></textarea>
+    </div>
+    <div class="two">
+      <button id="btn" onclick="myFunction()">Copy</button>
+    </div>
+    <div class="three">
+      <textarea name="" id="text2" cols="50" rows="15" class="area"></textarea>
+    </div>
+    <script>
+      function myFunction() {
+        let text = document.getElementById("text");
+        text.select();
+        text.setSelectionRange(0, 1000); //it takes two parameters count of the starting alphabet and the ending
+        navigator.clipboard.writeText(text.value);
+        document.getElementById("text2").innerHTML = text.value;
+      }
+      //  $(document).ready(function(){
+      //      $("#btn").click(function(){
+      //          $("#text").select();
+      //          document.execCommand("copy");
+      //      });
+      //  });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/4f67b81683.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+     
+     html{
+    width: 100%;
+}
+body {
+  margin: 0;
+  padding:0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#top-container {
+  background-color: #141414;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sale {
+  background-color: #ff0000;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: #000;
+}
+
+.nav-brand {
+  width: 20%;
+}
+
+.nav-brand a,
+.nav-brand img {
+  width: 30%;
+}
+
+.nav-links {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 1.5rem 0;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.75);
+  padding: 1rem 1.5rem;
+  margin-top: 1.5rem;
+  z-index: 2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content ul li {
+  padding: 0.35rem 0;
+  font-size: 0.9rem;
+}
+
+.dropdown-content a:hover {
+  text-decoration: none;
+  color: #bbb;
+}
+
+.nav-icons {
+  width: 25%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav-icons span {
+  margin: 0 0.75rem;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+.nav-icons input {
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  padding-left: 2rem;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+.search-icon {
+  color: #777;
+  position: absolute;
+    top: 50%;
+    left: .5rem;
+    transform: translateY(-50%);
+}
+      .corousel li {
+        list-style: none;
+      }
+      .corousel {
+        width: 100vw;
+        height: 70vh;
+        position: relative;
+      }
+      .slide {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        transition: 500ms opacity ease-in-out;
+        transition-delay: 500ms;
+      }
+      .slide > img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+      }
+      .slide[data-active] {
+        opacity: 1;
+        z-index: 1;
+        transition-delay: 0ms;
+      }
+      .corosel-button {
+        z-index: 2;
+        position: absolute;
+        background: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 2rem;
+        border: none;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        padding: 0 0.5rem;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .corosel-button:hover,
+      .corosel-button:focus {
+        outline: none;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      .corosel-button:focus {
+        border: 1px solid black;
+      }
+      .corosel-button.prev {
+        left: 1rem;
+      }
+      .corosel-button.next {
+        right: 1rem;
+      }
+      /* navbar */
+      .navigation{
+       
+        background-color: black;
+        color:white;
+        padding:1rem;
+      }
+      .shop div,.account div{
+        margin-left:20px;
+      }
+      .logo img{
+        width:80px;
+        height:30px;
+        object-fit:cover;
+      }
+      .announcement_bar{
+        background-color: red;
+
+      }
+      #midcontainer{
+       background-color: #000;
+     }
+     .mid-heading{
+       font-size: 40px;
+       font-weight:700;
+       color:white;
+       text-align: center;
+     }
+      #productcontainer{
+        display:flex;
+        align-items: center;
+        justify-content:space-evenly;
+        overflow: hidden;
+        flex-wrap: wrap;
+        padding:0.5 rem;
+      }
+      .product-card{
+        display:flex;
+        flex-direction: column;
+        background-color: #e3e3e3;
+        width:400px;
+        padding:1rem;
+        border-radius:10px;
+      }
+      .product-img img{
+        width:100%;
+        height:300px;
+      }
+      .prod-description{
+       background-color:white;
+       border-radius: 5px;
+      
+       width:100%;
+     }
+      .prod-text{
+        color:#000;
+        font-size:20px;
+        font-weight: bold;
+        margin-left: 5px;
+      }
+      .product-price{
+             display: flex;
+             
+      }
+      .discount-price{
+        color:red;
+        font-weight: bold;
+        margin-left: 5px;
+        margin-right:5px;
+      }
+      .old-price{
+        text-decoration: line-through;
+      }
+      .saving{
+        font-size: 12px;
+      }
+      .add-to-cart{
+        width:100%;
+        background-color: #ff0000e8;
+        color:white;
+        border: none;
+        font-weight: bold;
+        padding:0.5rem;
+      
+       
+      }
+     
+    
+     
+    
+      
+    </style>
+  </head>
+  <body>
+     <!-- <div class="announcement_bar d-flex flex-wrap justify-content-center align-items-center  pt-3 text-white text-center"><p>This Rakhi, tie a smartwatch and empower them with precise health insights, starting @ ₹1799. Shop NOW!</p></div> -->
+    <!-- <div class="navigation d-flex  justify-content-between">
+      <div class="logo"><img src="images/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.webp" alt=""></div>
+      <div class="shop d-flex ">
+        <div>Shop</div>
+        <div>About</div>
+        <div>Watches</div>
+        <div class="dropdown">
+          <a href="#">More <i class="fa-solid fa-angle-down"></i></a>
+          <div class="dropdown-content">
+            <ul>
+              <li>
+                <a href="#">Gifting</a>
+              </li>
+              <li>
+                <a href="#">Do What Floats Your boAt</a>
+              </li>
+              <li>
+                <a href="#">Blogs</a>
+              </li>
+              <li>
+                <a href="#">Meet the boAtheads</a>
+              </li>
+              <li>
+                <a href="#">Corporate Orders</a>
+              </li>
+              <li>
+                <a href="#">Earn Rs.100</a>
+              </li>
+              <li>
+                <a href="#">Careers</a>
+              </li>
+              <li>
+                <a href="#">Social Responsibility</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="account d-flex">
+        <div>Account</div>
+        <div>Gift</div>
+        <div>Cart</div>
+      </div>
+    </div>  -->
+    <section id="top-container">
+      <a href="#" class="sale-link">
+        <div class="sale">
+          <marquee>This Rakhi, tie a smartwatch and empower them with precise health insights, starting @ ₹1799. Shop NOW!
+            🛍️</marquee>
+        </div>
+      </a>
+      <nav>
+        <div class="nav-brand">
+          <a href="index.html">
+            <img src="./images/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.webp" alt="logo" />
+          </a>
+        </div>
+        <div class="nav-links">
+          <span class="nav-link"
+            ><a href="#"> Shop <i class="fa-solid fa-angle-down"></i> </a
+          ></span>
+          <span class="nav-link"><a href="#">Daily Deals</a></span>
+          <span class="nav-link"><a href="#">Offer Zone</a></span>
+          <div class="dropdown nav-link">
+            <a href="#"> More <i class="fa-solid fa-angle-down"></i> </a>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="#">Gifting</a>
+                </li>
+                <li>
+                  <a href="#">Do What Floats Your boAt</a>
+                </li>
+                <li>
+                  <a href="#">Blogs</a>
+                </li>
+                <li>
+                  <a href="#">Meet the boAtheads</a>
+                </li>
+                <li>
+                  <a href="#">Corporate Orders</a>
+                </li>
+                <li>
+                  <a href="#">Earn Rs.100</a>
+                </li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+                <li>
+                  <a href="#">Social Responsibility</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="nav-icons">
+          <span>
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" placeholder="Search..." />
+          </span>
+          <span>
+            <a href="#"><i class="fa fa-user"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="fa-solid fa-gift"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+          </span>
+        </div>
+      </nav>
+     <div class="corousel" data-corosel>
+      <button class="corosel-button prev" data-corosel-button="prev">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+      <button class="corosel-button next" data-corosel-button="next">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="images/Collection-Banner_346efdc6-82b3-4370-87b9-e018fe298c09_2000x.webp" alt="" />
+        </li>
+        <li class="slide">
+          <img src="images/A121-website-banner_2000x.webp" alt="" />
+        </li>
+        <li class="slide">
+          <img src="images/Stone-Speakers_Catgry-web_5ddac427-ef95-4cc3-bcd7-5f08ab93359d.webp" alt="" />
+        </li>
+        <li class="slide">
+          <img src="images/pexels-roberto-nickson-2775196.jpg" alt="" />
+        </li>
+        <li class="slide">
+          <img src="images/pexels-tatiana-syrikova-3934023.jpg" alt="" />
+        </li>
+      </ul>
+    </div>
+    </section> 
+    <section id="midcontainer">
+       <p class="mid-heading">Sail With boAt</p>
+       <div id="productcontainer">
+          <div class="product-card">
+                <div class="product-img">
+                  <img src="./images/1_05260e43-8f0b-4776-a433-ea2089c7f7e7_600x.webp" alt="">
+                </div>
+                <div class="prod-description">
+                  <a href="#">
+                    <p class="prod-text">boAt Airpods 141 Pro</p>
+                  </a>
+                  <hr>
+                  <span class="product-price">
+                    <span class="discount-price">₹ 1,099</span>
+                    <span class="old-price">₹ 2,990</span>
+                  </span>
+                  <div class="saving">You Save: ₹ 1891 (63%)</div>
+                  <button class="add-to-cart">ADD TO CART</button>
+                </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="./images/1_05260e43-8f0b-4776-a433-ea2089c7f7e7_600x.webp" alt="">
+            </div>
+            <div class="prod-description">
+              <a href="#">
+                <p class="prod-text">boAt Airpods 141 Pro</p>
+              </a>
+              <hr>
+              <span class="product-price">
+                <span class="discount-price">₹ 1,099</span>
+                <span class="old-price">₹ 2,990</span>
+              </span>
+              <div class="saving">You Save: ₹ 1891 (63%)</div>
+              <button class="add-to-cart">ADD TO CART</button>
+            </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">
+          <img src="./images/1_05260e43-8f0b-4776-a433-ea2089c7f7e7_600x.webp" alt="">
+        </div>
+        <div class="prod-description">
+          <a href="#">
+            <p class="prod-text">boAt Airpods 141 Pro</p>
+          </a>
+          <hr>
+          <span class="product-price">
+            <span class="discount-price">₹ 1,099</span>
+            <span class="old-price">₹ 2,990</span>
+          </span>
+          <div class="saving">You Save: ₹ 1891 (63%)</div>
+          <button class="add-to-cart">ADD TO CART</button>
+        </div>
+  </div>
+  <div class="product-card">
+    <div class="product-img">
+      <img src="./images/1_05260e43-8f0b-4776-a433-ea2089c7f7e7_600x.webp" alt="">
+    </div>
+    <div class="prod-description">
+      <a href="#">
+        <p class="prod-text">boAt Airpods 141 Pro</p>
+      </a>
+      <hr>
+      <span class="product-price">
+        <span class="discount-price">₹ 1,099</span>
+        <span class="old-price">₹ 2,990</span>
+      </span>
+      <div class="saving">You Save: ₹ 1891 (63%)</div>
+      <button class="add-to-cart">ADD TO CART</button>
+    </div>
+</div>
+       </div>
+    </section>
+    <section id="bottomcontainer">
+
+    </section>
+  
+      </div>
+    </div>
+    <script>
+      const buttons = document.querySelectorAll("[data-corosel-button]");
+      console.log(buttons);
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const offset = button.dataset.coroselButton === "prev" ? -1 : 1;
+          const slides = button
+            .closest("[data-corosel]")
+            .querySelector("[data-slides]");
+          const activeSlide = slides.querySelector("[data-active]");
+          let newIndex = [...slides.children].indexOf(activeSlide) + offset;
+          if (newIndex < 0) newIndex = slides.children.length - 1;
+          if (newIndex >= slides.children.length) newIndex = 0;
+          slides.children[newIndex].dataset.active = true;
+          delete activeSlide.dataset.active;
+        });
+      });
+    </script>
+  </body>
+</html>

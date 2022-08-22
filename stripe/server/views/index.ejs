@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Buy cool new product</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script src="https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=fetch"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+  </head>
+  <body>
+    <header class="text-center">
+      <h1><%= title %></h1>
+    </header>
+    <section class="container" id="checkout" style="max-width: 350px">
+      <div class="product card rounded-4" style="overflow: hidden">
+        <img
+          class="card-img-top"
+          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569"
+          alt="The cover of Stubborn Attachments"
+        />
+        <div
+          class="description card-body bg-dark text-white text-center px-4 pb-4"
+        >
+          <h3 class="card-title">Boat Headphone</h3>
+          <h5 class="card-text">₹1.00</h5>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button
+              type="button"
+              onclick="changeQuantity(-1)"
+              class="btn btn-light"
+            >
+              -
+            </button>
+            <button type="button" id="quantity" class="btn btn-outline-light">
+              1
+            </button>
+            <button
+              type="button"
+              onclick="changeQuantity(1)"
+              class="btn btn-light"
+            >
+              +
+            </button>
+          </div>
+          <form
+            action="/create-checkout-session"
+            class="d-grid gap-2 col-6 mx-auto"
+            method="POST"
+          >
+            <input
+              id="quantity-input"
+              name="quantity"
+              type="hidden"
+              value="1"
+            />
+            <input
+              id="product-id"
+              name="priceId"
+              type="hidden"
+              value="price_1LTJLaSIs6zf1oTZMFs57HbZ"
+            />
+            <button
+              type="submit"
+              class="btn btn-outline-light btn-block mt-5"
+              id="checkout-button"
+            >
+              Checkout
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    function changeQuantity(change) {
+      var quantity = document.querySelector("#quantity");
+      var value = parseInt(quantity.innerText);
+      value += change;
+      value = Math.max(value, 1);
+      quantity.innerText = value;
+      document.querySelector("#quantity-input").value = value;
+    }
+  </script>
+</html>

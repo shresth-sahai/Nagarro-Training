@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+.one,
+.two,
+.three {
+  text-align: center;
+}
+.two,
+.three {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: rgb(61, 61, 61);
+  color: white;
+}
+
+textarea {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.area {
+  padding: 20px;
+  resize: none;
+}
+
+.area:focus {
+  border: none;
+  background-color: rgb(39, 39, 39);
+  outline: none;
+}
+
+.two button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 5px;
+}

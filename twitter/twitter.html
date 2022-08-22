@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter. It's whats's happening / Twitter</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/4f67b81683.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      .cont {
+        flex-direction: row-reverse;
+      }
+      .photo {
+        width: 56%;
+      }
+      .photo > img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .info {
+        width: 44%;
+      }
+      .image i {
+        width: 40px;
+        height: 40px;
+      }
+      .c {
+        color: rgb(29 155 236 / 1);
+      }
+      span:hover {
+        text-decoration: underline;
+      }
+      .footer {
+        font-size: 14px;
+        color: rgb(83 100 113);
+      }
+      .footer div {
+        margin: 4px;
+      }
+      .account button {
+        color: rgb(29 155 240);
+      }
+      .buttons {
+        color: black;
+        /* width: 40%; */
+      }
+      @media (max-width: 840px) {
+        .cont {
+          flex-direction: column;
+        }
+        .photo {
+          width: 100vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cont d-flex border-8 border-stone-900">
+      <div class="info d-flex flex-column justify-content-center m-5">
+        <div>
+          <div class="image">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="heading fw-bold" style="font-size: 70px">
+            Happening Now
+          </div>
+          <div class="join fs-1 fw-bold">Join twitter Today</div>
+          <div style="margin: 10px 0px">
+            <a
+              href="#"
+              class="btn btn-light rounded-pill text-black"
+              style="
+                display: flex;
+                max-width: 300px;
+                align-items: center;
+                justify-content: center;
+              "
+              ><i class="fa-brands fa-google" style="margin-right: 10px"></i>
+              Sign up with Google</a
+            >
+          </div>
+          <div style="margin: 10px 0px">
+            <a
+              href="#"
+              class="btn btn-light rounded-pill text-black"
+              style="
+                display: flex;
+                max-width: 300px;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <i class="fa-brands fa-apple" style="margin-right: 10px"></i>
+              Sign up with apple</a
+            >
+          </div>
+
+          <div class="d-flex" style="width: 40%">
+            <div class="w-50"><hr /></div>
+            <div>or</div>
+            <div class="w-50"><hr /></div>
+          </div>
+          <div>
+            <a href="#" class="btn btn-primary rounded-pill">
+              Sign up with a phone number or email</a
+            >
+            <p style="font-size: 12px; margin-top: 10px">
+              By signing up, you agree to the
+              <span class="c">Terms of Service</span> and
+              <span class="c">Privacy Policy</span>, including
+              <span class="c"> Cookie Use</span>.
+            </p>
+          </div>
+
+          <br />
+          <br />
+          <div class="account">
+            <div class="fw-bold">Already have an account?</div>
+            <div>
+              <div
+                class="btn btn-light rounded-pill fw-bold btn-outline-secondary mt-1"
+              >
+                Sign in
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="photo">
+        <img
+          src="https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png"
+          alt="twitter_photo"
+          style="height: 95vh"
+        />
+      </div>
+    </div>
+    <footer
+      class="d-flex justify-content-around footer flex-wrap"
+      style="display: flex; justify-content: space-between"
+    >
+      <div>About</div>
+      <div>Help Center</div>
+      <div>Terms of Service</div>
+      <div>Privacy Policy</div>
+      <div>cookie Policy</div>
+      <div>Accessibility</div>
+      <div>Ads info</div>
+      <div>Blog</div>
+      <div>Status</div>
+      <div>Careers</div>
+      <div>Brand Resources</div>
+      <div>Advertising</div>
+      <div>Marketing</div>
+      <div>Twitter for Business</div>
+      <div>Developers</div>
+      <div>Directory</div>
+      <div>Settings</div>
+      <div>&copy 2022 Nagarro Project</div>
+    </footer>
+  </body>
+</html>
+<!-- 1. Photograph
+2.About(50-200)
+3.Technical skills
+4. Non Technical skills
+5.Education (High School + Intermediate + Graduation)
+6. Projects. 
+7. Contact ( email + linkedIn + Github )
+// (Use of Animation) -->
+
+<!-- const fs = require('express');
+const express = require('express');
+const cors = require('cors');
+const _ = require('lodash');
+const { v4: uuid } = require("uuid");
+
+const app = express();
+
+app.use(express.json());
+app.use(express.cors());
+
+app.get("/outfit", (req, res) => {
+const shirts = ["white", "blue"];
+const jeans = ["grey", "green"];
+const shoes = ["brown", "black"];
+
+res.json(({
+shirt: _.sample(shirts),
+jeans: _.sample(jeans),
+shoes: _.sample(shoes)
+}));
+}); -->

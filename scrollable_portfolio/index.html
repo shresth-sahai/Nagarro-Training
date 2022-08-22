@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Akash's Portfolio</title>
+  </head>
+  <body>
+    <a class="go-to-top-btn" href="#home">
+      <i class="fa-solid fa-circle-up"></i>
+    </a>
+    <nav class="navbar">
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-brand" onclick="loadDoc('home')">
+        <i class="fa-solid fa-diagram-project"></i>
+        <span>Akash</span>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      <div class="nav-links">
+        <a href="#home" class="nav-link active-nav">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills & Education</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+    </nav>
+    <section id="home"></section>
+    <section id="about"></section>
+    <div class="section-container">
+      <section id="skills"></section>
+      <section id="education"></section>
+    </div>
+    <section id="projects"></section>
+    <section id="contact"></section>
+    <div id="alert-box"></div>
+    <footer>
+      <span class="copyright">&copy; Akash Mukherjee</span>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
