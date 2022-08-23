@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/09890ac2f3.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/assets/twitter-icon.ico" type="image/x-icon">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png"> -->
+    <link rel="stylesheet" href="/css/profile.css">
+    <title><%= userData.name %></title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <a class="back-btn" href="/home">
+                <i class="fa-solid fa-arrow-left-long"></i>
+            </a>
+            <span class="title"><%= userData.name %></span>
+        </nav>
+        <div class="cover-pic">
+            <img src="/assets/twitter.png" alt="cover photo">
+        </div>
+        <div class="profile-details">
+            <div class="profile-pic">
+                <img src="/assets/user-profile.jfif" alt="profile photo">
+            </div>
+            <button class="follow-btn">Follow</button>
+            <div class="profile-info">
+                <span class="name"><%= userData.name %></span>
+                <span class="handle">@<%= userData.username %></span>
+            </div>
+
+            <div class="follow-details">
+                <span class="following">
+                    <span><%= 0 %></span> following
+                </span>
+                <span class="followers">
+                    <span><%= 0 %></span> followers
+                </span>
+            </div>
+            <input type="hidden" id="userId" name="userId" value="<%= currentUser %>" />
+        </div>
+        <div class="tweets">
+            <% tweets.forEach(tweet=>{%> 
+            <div class="tweet">
+                <div class="avatar">
+                  <img src="/assets/user-profile.jfif" alt="avatar" referrerpolicy="no-referrer" />
+                </div>
+                <div class="tweet-content">
+                  <div class="tweet-header">
+                    <span class="tweet-name">
+                      <a href="/profile/<%= tweet.userId %> ">
+                        <span> <%= tweet.name %> </span>
+                      </a>
+                    </span>
+                    <span class="tweet-handle">
+                      <a href="/profile/<%= tweet.userId %>">
+                        <span> @<%= tweet.username %> </span>
+                      </a>
+                    </span>
+                    <% if (tweet.tweetTime < 1) { %>
+                      <span class="tweet-time"> less than 1h </span>
+                    <% } else { %>
+                      <span class="tweet-time"> <%= tweet.tweetTime %></span>
+                    <% } %>
+                  </div>
+                  <div class="tweet-body">
+                    <span class="tweet-text">
+                      <span>
+                        <%= tweet.tweet %>
+                      </span>
+                    </span>
+                  </div>
+                  <div class="tweet-footer">
+                    <span class="tweet-actions">
+                      <a href="#">
+                        <i class="fa-regular fa-comment"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa-solid fa-retweet"></i>
+                      </a>
+          
+                      <% if (tweet.isLiked) { %>
+                        <a class="like-btn" href="#" data-tweetId="<%= tweet.tweetId %>">
+                          <i class="fa-regular fa-heart fa-solid"></i>
+                          <span class="numbres"><%= tweet.likeCount %></span>
+                        </a>
+                      <% }else{ %>
+                        <a class="like-btn" href="#" data-tweetId="<%= tweet.tweetId %>">
+                          <i class="fa-regular fa-heart"></i>
+                          <span class="numbres"><%= tweet.likeCount %></span>
+                        </a>
+                        <% } %>
+          
+                      <a href="#">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+                <% if (tweet.userId===currentUser) { %>
+                  <button class="delete-tweet" data-tweet-id="<%= tweet.tweetId %>" data-tweet-user="<%= tweet.userId %>">
+                    <i class="fa-solid fa-trash-can"></i>
+                  </button>
+                <% } %>
+              </div>
+              <% }) %>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
