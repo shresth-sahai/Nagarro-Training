@@ -1,0 +1,210 @@
+:root{
+    --box-border: 1px solid #bdbdbd;
+    --primary-color: #1d9bf0;
+    --primary-text: #000;
+    --secondary-text: #777777;
+    --like-pink: #ff006f;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    border: 0.5px solid #e1e1e1;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+
+.navbar .back-btn{
+    margin-right: 1.25rem;
+}
+
+.navbar .title{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.cover-pic img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile-details{
+    padding: 0 1rem;
+}
+
+.profile-pic{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin-top: -65px;
+}
+
+.profile-pic img{
+    width: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.follow-btn{
+    float: right;
+    background-color: #222;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.follow-btn:hover{
+    background-color: #111;
+}
+
+.profile-info{
+    margin: 1rem 0;
+}
+
+.profile-info span{
+    display: block;
+    margin-bottom: .25rem;
+}
+
+.profile-info .name{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.profile-info .handle{
+    font-size: .9rem;
+    color: #999;
+    font-weight: 100;
+}
+
+.follow-details span{
+    color: #999;
+    font-size: .9rem;
+    font-weight: 100;
+}
+.followers span,
+.following span{    
+    color: #000;
+    font-weight: 600;
+}
+
+.tweet{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: var(--box-border);
+    margin-bottom: 1px;
+    padding: 1rem 1.5rem;
+    position: relative;
+}
+
+.tweet .delete-tweet{
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: transparent;
+    padding: .5rem;
+    border: 0;
+    color: rgb(228, 27, 8);
+    border-radius: 50%;
+    transition: color .2s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.delete-tweet:hover{
+    color: rgb(170, 21, 7);
+}
+
+.avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar img{
+    width: 100%;
+}
+
+.tweet-content{
+    width: calc(100% - 60px);
+}
+.tweet-header{
+    margin-bottom: 5px;
+}
+
+.tweet-name a{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.tweet-handle a,
+.tweet-time{
+    font-size: .95rem;
+    font-weight: 300;
+    color: var(--secondary-text);
+}
+
+.tweet-body{
+    margin-bottom: 7px;
+}
+
+.tweet-text{
+    font-size: .95rem;
+    font-weight: 100;
+    color: var(--primary-text);
+}
+
+.tweet-actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.tweet-actions a{
+    font-size: .95rem;
+    font-weight: 100;
+    color: var(--secondary-text);
+    transition: color .2s ease-in-out;
+}
+
+.tweet-actions a i,
+.tweet-actions a span{
+    pointer-events: none;
+}
+
+.tweet-actions a:hover{
+    color: var(--primary-color);
+}
+
+.tweet-actions .like-btn:hover{
+    color: var(--like-pink);
+}
+
+.fa-solid.fa-heart{
+    color: var(--like-pink);
+}
