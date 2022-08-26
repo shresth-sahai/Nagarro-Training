@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(42, 179, 210);
+}
+h3 {color :white}
+.card:hover {
+    box-shadow: 1px .5px 10px black,.5px 10px 10px rgb(56, 85, 94);
+    transition: all .3s linear;
+}
+.img {
+     width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.mybtn {
+    outline: none;
+    padding: .38rem .45rem;
+    color: white;
+    background-color: #BD1E51;
+    border-radius: 5px;
+    border: none;
+}
+.mybtn:hover {
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+.card-header {
+    background-color: #F1B814;
+}
+.status {
+    color: #490B3D;
+    font-weight: bold;
+}
