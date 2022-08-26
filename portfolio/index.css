@@ -1,49 +1,72 @@
-
-h2 {
-    color: rgb(72, 72, 72);
-}
-.portfolio {
-    border-radius: 8px;
-    margin: 0 auto;
+body {
+    background-image: url(https://www.xmple.com/wallpaper/blue-gradient-white-linear-1920x1080-c2-87cefa-ffffff-a-270-f-14.svg);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: rgb(25, 9, 25);
+  }
+  
+  main {
     display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
-    width: 80%;
-    height: 22rem;
-    background-color: rgb(241, 238, 238);
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  img {
+    height: 14rem;
+    width: 14rem;
+    border-radius: 1rem;
+  }
+  
+  main {
+    background-color: rgba(255, 255, 255, 0.129);
+    margin: 10%;
+    padding: 1%;
+    border-radius: 1rem;
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.551);
+  }
+  #desc {
+    text-align: center;
+    width: 85%;
+    margin-top: 0%;
+    padding-top: 0%;
 }
-.about {
-    width: 40rem;
-    height: 70%;
+#image {
+    margin: 2%;
+    padding: 2%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+  }
+  
+  p {
+    font-size: larger;
+  }
+  
+  h1,
+  h2 {
+    color: rgb(6, 78, 95);
+  }
+  
+  h1 {
+    margin: 5%;
+  }
+  span a {
+    color: rgb(6, 78, 95);
+    text-decoration: none;
+    font-size: 1.7rem;
+  }
+  
+  #links {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    border-radius: 8px;
-}
-.links {
-    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 6px;
-}
-a{
-    transform: scale(1.7);
-    color: rgb(72, 72, 72);
-}
-.info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 80%;
-    width: 13rem;
-    text-align: center;
-    border-radius: 8px;
-    background-color: grey;
+    padding: 5%;
+  }
+  
+  #image p {
+    font-size: 200%;
+  }
+  
+  i {
     color: white;
-}
-.pic {
-    text-align: center;
-}
-img {
-    height: 11rem;
-    width: 12rem;
-}
+  }
