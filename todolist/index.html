@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="todolist.css">
+    <title>Todo list using jquery</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<body>
+    <div class="container">
+        <div class="todo">
+            <h1>todo list</h1>
+            <div class="todo-input">
+                <input type="text" placeholder="Place your todo here">
+                <button>Add</button>
+            </div>
+        </div>
+        <ul class="items">
+        </ul>
+    </div>
+    <script>
+        $(document).ready(function () {
+                $('button').click(function () {
+                    let val = $('input').val();
+                    if(val === '') {
+                        alert('Please have some todo !!');
+                        return ;
+                    }
+                    $('.items').append(`<li class="item">${val}<i class="fas fa-trash"></i></li>`);
+                    $('input').val('');
+                })
+            $('ul').on('click', '.fa-trash', function () {
+                $(this).parent('li').fadeOut(200);
+            })
+        })
+    </script>
+</body>
+
+</html>
