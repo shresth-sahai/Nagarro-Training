@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <style>
+        .form-bg {
+            background-color: #FDF5DF;
+        }
+        .form {
+            color: #F92C85;
+            font-weight: bold;
+        }
+        .danger {
+            background-color: rgba(255, 0, 0, 0.264);
+            color: rgb(195, 6, 6);
+            display: block;
+            font-weight: 400;
+        }
+        </style>
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="container">
+        <h3 class="heading text-center">Form Validation</h3>
+        <div class="row">
+            <div class="col-md-6 mx-auto my-3 py-3 rounded form-bg">
+                <form class="form" action="#">
+                    <div class="mb-2">
+                      <label for="username" class="form-label">User Name</label>
+                      <input type="text" class="form-control" id="username">
+                      <span id="usernameValidate" class="danger px-2 py-1 my-1 rounded text-capitalize"> </span>
+                    </div>
+                    <div class="mb-2">
+                      <label for="email" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="email">
+                      <span id="emailValidate" class="danger px-2 py-1 my-1 rounded text-capitalize">this is it </span>
+                    </div>
+                    <div class="mb-2">
+                      <label for="pass" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="pass">
+                      <span id="passValidate" class="danger px-2 py-1 my-1 rounded text-capitalize">this is it </span>
+                    </div>
+                    <button type="submit" class="btn btn-info" id="sub">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
