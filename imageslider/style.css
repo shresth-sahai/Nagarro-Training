@@ -1,0 +1,71 @@
+* {
+    margin: 0%;padding: 0;box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -80px;
+    color: rgb(13, 177, 24);
+}
+.container {
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.btn {
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    padding:.7rem 1.2rem;
+    transform: scale(.8);
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: rgba(17, 16, 16, 0.192);
+    border: 1px currentColor;
+    cursor: pointer;
+    z-index: 10;
+    color: white;
+}
+.btn:hover {
+    transition: all .6s ease;
+    background-color: rgba(255, 255, 255, 0.755);
+    background-color: rgba(13, 177, 24, 0.755);
+}
+.prev {
+    left: 2px;
+}
+.next {
+    right: 2px;
+}
+.carousal {
+    height: 340px;
+    transition: all .3s ease;
+}
+.carousal img {
+    width: 100%;
+    background-size: contain;
+    border-radius: 6px;
+}
+.item {
+    position:absolute; 
+    display: none;
+}
+.current {
+    display: block;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: .7s;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: rotate(180deg);
+    }
+    to {
+        opacity: 1;
+    }
+}
