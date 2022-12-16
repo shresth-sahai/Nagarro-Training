@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-image: url("https://www.transparenttextures.com/patterns/escheresque-dark.png");
+}
+
+.trainer-name{
+  font-size: 2.5rem;
+  color: #fff;
+  width: fit-content;
+  margin: 1em auto;
+  padding: 0.5em 0.75em;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.462);
+}
+
+.pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon {
+  flex: 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+  margin: 1em;
+  box-shadow: 2px 2px 20px #000;
+  background-size: 400%;
+  animation: gradient 10s ease infinite;
+  border-radius: 7px;
+  border: 2px solid;
+  overflow: hidden;
+}
+
+.pokemon:nth-child(odd) {
+  background-image: linear-gradient(135deg, #ffa35c, #fff, #8057e1);
+}
+
+.pokemon:nth-child(even) {
+  background-image: linear-gradient(135deg, #fff45c, #fff, #9ae03f);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.pokemon-img {
+  max-width: calc(100vw / 3);
+  width: 100%;
+  transition: all 1s;
+}
+
+.pokemon-name {
+  margin: auto;
+  width: fit-content;
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+  text-transform: capitalize;
+  transition: all 1s;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+.pokemon:hover > .pokemon-name,
+.pokemon:hover > .pokemon-img {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1000px) {
+  .pokemon {
+    flex: 45%;
+    max-width: 45%;
+  }
+  .pokemon-img {
+    max-width: calc(100vw / 2);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .pokemon {
+    flex: 90%;
+    max-width: 90%;
+  }
+  .pokemon-img {
+    max-width: 100%;
+  }
+}

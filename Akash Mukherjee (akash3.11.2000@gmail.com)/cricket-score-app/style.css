@@ -1,0 +1,16 @@
+body{
+    padding: 20px 0;
+}
+.card{
+    max-width: 380px;
+    width: 100%;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.team-logo{
+    width: 30%;
+    min-width: 50px;
+    border-radius: 100%;
+}
