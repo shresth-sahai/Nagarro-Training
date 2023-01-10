@@ -1,2 +1,2 @@
 ## Twitter Clone 
-https://twitter247.herokuapp.com/
+https://twiiter-clone.onrender.com/
