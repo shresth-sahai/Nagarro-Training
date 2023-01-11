@@ -38,7 +38,7 @@ router.get("/category/:category",function(req,res){
 	const categoryName = req.params.category;
 	let option = {};
 	if(categoryName!=="all") {
-		option = {category:categoryName.replaceAll("-"," ")};
+		option = {category:categoryName.replace(/-/g," ")};
 	}
 
 	Product.find(option,function(err,products){
