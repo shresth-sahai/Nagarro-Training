@@ -1,0 +1,13 @@
+const http = require('http');
+http.createServer((req, res) => {
+    console.log("Server started");
+});
+http.Server.listen(3000, 'localhost', () => {
+    console.log('server is on!');
+
+    res.setHeader('Content-Type', 'text/plain');
+    res.write('<h1> HEllO </h1');
+    res.write('<h2> i m the server </h2');
+    res.end();
+
+});

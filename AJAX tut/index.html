@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax </title>
+    <style>
+        #form-messages{
+background-color: aquamarine;
+border-radius: 1 px solid red;
+color:red;
+display:none;
+font-size: 12px;
+font-weight: bold;
+margin-bottom: 10px;
+padding: 10px 25px;
+max-width: 250px;
+        }
+        #username{
+            background-color: aquamarine;
+color:red;
+        }
+         #password{
+            background-color: plum;
+color:darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ajax form</h1>
+    <div  class ="form">
+        <ul id="form-messages">  </ul>
+        
+        <label for="username">Username</label>
+        <input type="text" id="username" spellcheck="false">
+        
+        <label for="password">Password</label>
+        <input type="text" id="password" >
+
+        <button type="submit" id="btn-submit">Login</button>
+
+    </div>
+    <script>
+        const form={
+            username:document.getElementById('username'),
+              password: document.getElementById('password'),
+                submit: document.getElementById('btn-submit'),
+                  messages: document.getElementById('form-messages')
+
+        };
+        form.submit.addEventListener('click',() =>{
+            const request=new XMLHttpRequest();
+
+            request.onload= () => {
+                let responseObject=null;
+
+                try {
+                    responseObject=JSON.parse(request.responseText);
+                }
+                catch(e)
+                {
+                    console.error('Failed !');
+                }
+                if(responseObject)
+                {
+                    handleResponse(responseObject);
+                }
+
+            };
+            const requestData='username = $(form.username.value) & password=$ (form.password.value)';
+            request.open('post', 'check-login.php');
+            request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+            request.send(requestData);
+        });
+        function handleResponse(responseObject)
+        {
+            if(responseObject.ok)
+            {
+                location.href='dashboard.html';
+            }
+            else {
+                while(form.messages.firstChild)
+                {
+                    form.messages.removeChild(form.messages.firstChild);
+                }
+                responseObject.messages.forEach((message) => {
+                    const li=document.createElement('li');
+                    li.textContent=message;
+                    form.messages.appendChild(li);
+
+                });
+                form.messages.style.display=block;
+            }
+        }
+    </script>
+</body>
+</html>

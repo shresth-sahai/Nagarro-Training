@@ -1,0 +1,8 @@
+var mongo = require('mongodb');
+var url = 'localhost:8080';
+mongo.connect(url, function (err,db)
+{
+    if (err) throw err;
+    console.log("Db created !);
+        db.close();''
+})

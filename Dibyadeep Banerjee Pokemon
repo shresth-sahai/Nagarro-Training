@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEMON WEBSITE</title>
+</head>
+
+<body bgcolor="lightyellow">
+
+    <h1 align="center"><em><u>Pokémon</u></em></h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png" alt="Error" height="150" width="500"
+        align="right" margin="500">
+    <hr>
+    <p>
+        Pokémon(an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon
+        Company,<br> a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi
+        Tajiri
+        in 1996, and is centered on fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon
+        Trainers, catch and train Pokémon to battle other Pokémon for sport. All media works within the franchise are
+        set in the Pokémon universe. The English slogan for the franchise is "Gotta Catch ‘Em All!". There are
+        currently 913 Pokémon species.
+    </p>
+    <br><br>
+    <hr>
+
+    <h2 align="center"><u>ASH</u></h2>
+    <p>
+        Ash Ketchum, known as Satoshi in Japan, is a fictional character in the Pokémon franchise owned by Nintendo. He
+        is the protagonist of the Pokémon anime and certain manga series as well as on various merchandise related to
+        the franchise. In Japanese, the character is voiced by Rika Matsumoto, and Hana Takeda.
+    </p>
+    <center>
+            <img src="https://sm.ign.com/ign_ap/screenshot/default/ashwins_78um.jpg" alt="Error loading image"
+                 height="200" width="350"/>
+    </center></a>
+
+    <hr>
+    <h2 align="center"><u>GARY</u></h2>
+    <p>Gary Oak is Professor Oak's grandson and Ash Ketchum's rival in the first few seasons. His starter Pokémon was a
+        Squirtle that later evolved into a Blastoise.</p>
+    <img src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/01/ErIZI89UYAEBP_5.jpg" alt="Error loading image" height="300"
+        width="450">
+    <br><br><br>
+    <hr>
+    <div>
+        <h3><strong>
+                <em>
+                    <pre align="center">ASH VS GARY</pre>
+                </em>
+            </strong></h3>
+        <center>
+            <iframe width="25%" height="195" src="https://www.youtube.com/embed/AG4GSlMhGHs"></iframe>
+        </center>
+    </div>
+    <table border="2" align="center">
+        <thead>
+            <tr>
+                <th><em><u>Ash's Pokemons</u></em></th>
+                <th><em><u>Gary's Pokemons</u></em></th>
+
+            </tr>
+        </thead>
+        <tBody>
+            <tr>
+                <ol>
+                    <td>
+                        <li>Pikachu </li>
+                    </td>
+                    <td>
+                        <li>Blastoise </li>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <li>Caterpie</li>
+                </td>
+                <td>
+                    <li>Krabby</li>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <li>Pidgeotto</li>
+                </td>
+                <td>
+                    <li>Nidoking</li>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <li>Bulbasaur</li>
+                </td>
+                <td>
+                    <li>Dodrio</li>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <li>Charmander</li>
+                </td>
+                <td>
+                    <li>Scizor</li>
+                </td>
+            </tr>
+        </tBody>
+        </ol>
+    </table>
+    <hr>
+    <h4>Fill up the form below and let us know your favourite character and Pokémon!</h4>
+    <form action="./index.php">
+        <h4>Enter your name and password:</h4>
+        <input type="text" placeholder="username" />
+        <br>
+        <br>
+        <input type="password" placeholder="password" />
+        <br>
+        <br>
+        <h5>
+            Which character is your favourite?
+        </h5>
+        <label for="1">
+            <input type="radio" value="ASH" name="radio" id="1" />ASH
+        </label>
+        <br>
+        <br>
+        <label for="2">
+            <input type="radio" value="GARY" name="radio" id="2" />GARY
+        </label>
+        <br>
+        <br>
+        <h5>Which Pokemon is your favourite?</h5>
+        <select name="Pokemon">
+            <option value="Pikachu">Pikachu</option>
+            <option value="Blastoise">Blastoise</option>
+        </select>
+        <br>
+        <br>
+        <h5>Why do you like them?</h5>
+        <textarea name="feedback" id="1000" cols="30" rows="10"></textarea>
+
+        <center><input type="submit" value="submit" /></center>
+    </form>
+</body>
+
+</html>

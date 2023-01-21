@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+ 
+<head>
+ 
+<meta charset="UTF-8">
+ 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<title>WELCOME TO POKEWEB</title>
+ 
+</head>
+ 
+<body>
+    <br>
+    <h1><center><u>POKEMON</u></center></h1>
+    <br>
+    <p>Pokémon an abbreviation for Pocket Monsters[b] in Japan) is a Japanese media franchise managed by The Pokémon Company, 
+        a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996,[4] and 
+        is centered on fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon Trainers, catch and train 
+        Pokémon to battle other Pokémon for sport. All media works within the franchise are set in the Pokémon universe. 
+        The English slogan for the franchise is "Gotta Catch ‘Em All!".[5][6] There are currently 913 Pokémon species.[7]
+        The franchise began as Pocket Monsters: Red and Green (later released outside of Japan as Pokémon Red and Blue), 
+        a pair of video games for the original Game Boy handheld system that were developed by Game Freak and published 
+        by Nintendo in February 1996. It soon became a media mix franchise adapted into various different media.
+        [8] Pokémon is estimated to be the highest-grossing media franchise of all time. 
+        The Pokémon video game series is the fourth best-selling video game franchise of all time with more than 440 million 
+        copies sold[9] and one billion mobile downloads.[10] The Pokémon video game series spawned an anime television series 
+        that has become the most successful video game adaptation[11] of all time with over 20 seasons and 1,000 episodes in 
+        192 countries.[9] The Pokémon Trading Card Game is the highest-selling trading card game of all time[12] with over 
+        43.2 billion cards sold. In addition, the Pokémon franchise includes the world's top-selling toy brand,[13] an anime 
+        film series, a live-action film (Detective Pikachu), books, manga comics, music, merchandise, and a temporary theme park. 
+        The franchise is also represented in other Nintendo media, such as the Super Smash Bros. series, where various Pokémon 
+        characters are playable.
+    </p>
+    <center><img src="https://sm.ign.com/ign_ap/screenshot/default/pokemon-ash-feature-image-1_uapv.jpg" alt=""></center>
+    <h3><u>Ash Ketchum</u></h3>
+    <p>
+        Ash Ketchum, known as Satoshi in Japan, is a fictional character in the Pokémon franchise owned by Nintendo. 
+        He is the protagonist of the Pokémon anime and certain manga series as well as on various merchandise related 
+        to the franchise. In Japanese, the character is voiced by Rika Matsumoto, and Hana Takeda. In the English dub,
+        he was voiced by Veronica Taylor in the first eight seasons and has been voiced by Sarah Natochenny since season 9.
+        In the Hindi dub, Prasad Barve dub Season 1–14 for Cartoon Network, Season 10 for Disney and Nachiket Dighe for Season 
+        1–9, 11–present for Disney. In the Korean dub, he was voiced by Choi Deok-Hui in the first five seasons and first two 
+        films, An Hyeon-Seo in Pokémon films three through five, and has been voiced by Lee Seon-ho since season six and the 
+        sixth Pokémon film.
+    </p>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Nhaqkwz634A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+    <h3><u>Gary Oak</u></h3>
+    <p>
+        Gary Oak is Ash's first rival. He is based on the character Blue from the Pokémon video game series. Like his counterpart Blue
+        , Gary hails from Pallet Town and is the grandson of renowned Pokémon researcher Professor Oak. Like Ash, Gary collects 
+        Gym badges and competes in Pokémon League tournaments in Kanto and Johto. At first, Gary is arrogant, always 
+        traveling with cheerleaders who called out his name and constantly teases Ash's group whenever they meet.
+         After losing to a more powerful opponent in the Indigo League, Gary dispenses with the cheerleaders and then
+          becomes more open-minded. At the end of season 2 (Orange Islands), Ash and Gary have their first Pokémon battle in
+           which Gary's Eevee beats Ash's Pikachu. When the battle is over, Gary starts on a new journey to Johto and this 
+           subsequently influences Ash to follow him there. After losing to Ash in the Johto League, Gary decides to pursue a 
+           career in Pokémon research, impeding his rivalry with Ash. Until his loss to Ash, Gary had always thought of Ash as a 
+           poor trainer but he eventually comes to accept him as his equal. After Ash defeats the Battle Frontier and comes back to 
+           Pallet Town, Gary and Ash have a battle between Gary's Sinnoh Pokémon, Electivire, and Ash's Pikachu. Electivire easily 
+           beats Pikachu, which inspires Ash to travel to Sinnoh. While in Sinnoh, Gary becomes a Pokémon researcher working with 
+           Professor Rowan. By this time, Ash and Gary have become more of friends than rivals and they even team up to protect 
+           Pokémon from Pokémon Hunter J. After working together to protect a group of Shieldon from Pokémon Hunter J, they both 
+           agree to remain "friends until the end." Gary appears in seasons 1-5 (where it was only revealed that he started off with 
+           a Squirtle in season 5, while battling with a Blastoise)[20] and 9-12, as well as in a fantasy in the last Black and 
+           White episode, "The Dream Continues!". He returns in Journeys as he was taking part in Project Mew missions, while 
+           travelling across the world to conduct his research. He reunites with Ash, meets Goh and battles Moltres alongside 
+           the duo. It is also revealed he frequently visits his grandfather and Ash's Pokémon reserves. Gary also persuaded Goh to 
+           take part in the Project Mew missions by acting like what he was during his rivalry with Ash. It is also revealed that 
+           he watched Ash's battle against Paul in the Sinnoh League. Gary's Japanese name, Shigeru Okido is a reference to 
+           Shigeru Miyamoto, the mentor of Pokémon creator Satoshi Tajiri.
+    </p>
+    <center><iframe src="https://en.wikipedia.org/wiki/Pok%C3%A9mon" width="700" height="700" title="Pokemon"></iframe></center>
+    <h2><u><center>Details Form</center></u></h2>
+    <center>
+    <form action="./index.php">
+        <table>
+            <thead>
+                <tr>
+                    <th>Enter Your Name:</th>
+                    <th><input type="text" placeholder="name"/></th>
+                </tr>
+                <tr>
+                    <th>Enter Your Email:</th>
+                    <th><input type="text" placeholder="email"/></th>
+                </tr>
+                <tr>
+                    <th>Enter Your Age:</th>
+                    <th><input type="number" placeholder="age"/></th>
+                </tr>
+                <tr>
+                    <th>Enter Your Gender:</th>
+                    <th><Select name="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Enter Any details about pokemon:</th>
+                    <th><textarea name="feedback" id="1" cols="20"rows="20"></textarea></th>
+                </tr>
+                <tr>
+                    <th><input type="submit" value="submit"></th>
+                </tr>
+            </thead>
+        </table>
+    </center>
+    </form>
+</body>
+</html>
