@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.corousel li {
+  list-style: none;
+}
+.corousel {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+}
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 500ms opacity ease-in-out;
+  transition-delay: 500ms;
+}
+.slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+.corosel-button {
+  z-index: 2;
+  position: absolute;
+  background: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2rem;
+  border: none;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 0 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+.corosel-button:hover,
+.corosel-button:focus {
+  outline: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.corosel-button:focus {
+  border: 1px solid black;
+}
+.corosel-button.prev {
+  left: 1rem;
+}
+.corosel-button.next {
+  right: 1rem;
+}

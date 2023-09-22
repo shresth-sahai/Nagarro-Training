@@ -1,0 +1,68 @@
+#container {
+  height: 70vh;
+  width: 85vw;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  margin: 11vh;
+}
+
+#heading {
+  height: 6vh;
+  width: 81.7vw;
+  background-color: black;
+  color: white;
+  margin: 1.5vw;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+#screen {
+  display: flex;
+  height: 12vh;
+  width: 81.7vw;
+  background-color: white;
+  margin: 1.5vw;
+  flex-direction: row-reverse;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 2.4rem;
+}
+
+#panel {
+  display: flex;
+  height: 33vh;
+  width: 81.7vw;
+  margin: 1.5vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#panel div {
+  height: 6vh;
+  width: 20vw;
+  background-color: white;
+  margin: 0.2vw;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+#zero {
+  flex-grow: 1;
+}
+
+.red {
+  background-color: #cc233f !important;
+  color: white !important;
+}
+
+#panel div:hover {
+  background-color: orange;
+}
